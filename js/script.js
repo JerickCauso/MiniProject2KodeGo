@@ -635,10 +635,10 @@ function init() {
   switch (global.currentPage) {
     case "/":
     case "/index.html":
-      // displayTrendNews();
-      // category1();
-      // category2();
-      // category3();
+      displayTrendNews();
+      category1();
+      category2();
+      category3();
 
       break;
     case "/shows.html":
