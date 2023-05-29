@@ -346,9 +346,9 @@ button.btn:hover {
   margin-right: 5px;
 }
 
-.top-news .tn-content a.tn-date:hover {
+/* .top-news .tn-content a.tn-date:hover {
   text-decoration: underline;
-}
+} */
 
 .top-news .tn-content a.tn-title {
   display: block;
@@ -441,9 +441,9 @@ button.btn:hover {
   margin-right: 5px;
 }
 
-.cat-news .cn-content a.cn-date:hover {
+/* .cat-news .cn-content a.cn-date:hover {
   text-decoration: underline;
-}
+} */
 
 .cat-news .cn-content a.cn-title {
   display: block;
@@ -573,9 +573,9 @@ button.btn:hover {
   margin-right: 5px;
 }
 
-.main-news .mn-content a.mn-date:hover {
+/* .main-news .mn-content a.mn-date:hover {
   text-decoration: underline;
-}
+} */
 
 .main-news .mn-content p {
   margin: 0;
@@ -636,9 +636,9 @@ button.btn:hover {
   margin-right: 5px;
 }
 
-.main-news .mn-list .mn-content a.mn-date:hover {
+/* .main-news .mn-list .mn-content a.mn-date:hover {
   text-decoration: underline;
-}
+} */
 
 /**********************************/
 /*********** Sidebar CSS **********/
@@ -804,9 +804,9 @@ button.btn:hover {
   margin-right: 5px;
 }
 
-.single-news .sn-content a.sn-date:hover {
+/* .single-news .sn-content a.sn-date:hover {
   text-decoration: underline;
-}
+} */
 
 /**********************************/
 /********** Contact CSS ***********/
