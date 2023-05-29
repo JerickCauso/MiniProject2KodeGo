@@ -23,9 +23,6 @@ function displayTrendNews() {
     })
     .then(function (data) {
       trendarticles = data.articles;
-      // console.log(trendarticles);
-      // console.log(trendarticles[2].title);
-      // articles.forEach((trendNews) => {
       const div = document.createElement("div");
       div.classList.add("row");
       div.innerHTML = `
@@ -110,7 +107,6 @@ function displayTrendNews() {
           </div>
              `;
       document.querySelector("#lefttrend").appendChild(div);
-      // });
     });
 }
 setTimeout(3000);
