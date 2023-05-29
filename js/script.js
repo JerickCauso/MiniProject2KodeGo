@@ -801,10 +801,10 @@ function init() {
 
       break;
     case "/business.html":
-      businesspage();
+      // businesspage();
       break;
-    case "/movie-details.html":
-      //   displayMovieDetails();
+    case "/technology.html":
+      //   technologypage();
       break;
     case "/tv-details.html":
       //   displayShowDetails();
