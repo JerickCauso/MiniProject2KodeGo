@@ -94,12 +94,18 @@
     <!-- Header End -->
 
     <!-- Category News Start-->
-
-    <div class="top-news">
+    <div class="breadcrumb-wrap">
       <div class="container-fluid">
-        <h2><i class="fas fa-check-to-slot"></i> Business</h2>
+        <ul class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active">Business</li>
+        </ul>
+      </div>
+    </div>
+    <div id="businesspage" class="top-news">
+      <!-- <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
-          <div class="col-md-5 tn-left">
+          <div class="col-md-4 tn-left">
             <div class="tn-img mb-5">
               <img src="img/top-news-1.jpg" height="490" />
               <div class="tn-content">
@@ -178,10 +184,74 @@
               </div>
             </div>
           </div>
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="img/top-news-2.jpg" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href=""
+                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      >
+                      <a class="tn-title" href=""
+                        >Integer faucibus pharetra odio</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="img/top-news-3.jpg" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href=""
+                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      >
+                      <a class="tn-title" href=""
+                        >Nulla vitae pharetra ligula</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="img/top-news-4.jpg" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href=""
+                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      >
+                      <a class="tn-title" href=""
+                        >Ut ac euismod tellus a blandit</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="img/top-news-5.jpg" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href=""
+                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      >
+                      <a class="tn-title" href=""
+                        >Cras ac egestas sem nec euismod</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </div> -->
     </div>
-    <!-- Top News End-->
+
     <!-- Category News End-->
 
     <!-- Footer Start -->
@@ -190,14 +260,13 @@
         <div class="row">
           <div class="col-lg-3 col-md-6">
             <div class="footer-widget">
-              <h3 class="title">Useful Links</h3>
-              <ul>
-                <li><a href="#">Pellentesque</a></li>
-                <li><a href="#">Aliquam</a></li>
-                <li><a href="#">Fusce placerat</a></li>
-                <li><a href="#">Nulla hendrerit</a></li>
-                <li><a href="#">Maecenas</a></li>
-              </ul>
+              <h3 class="title">Address</h3>
+              <p>
+                <i class="fa fa-map-marker"></i>123 Run Lane, Newark New Jersey,
+                USA
+              </p>
+              <p><i class="fa fa-envelope"></i>johnwick@gmail.com</p>
+              <p><i class="fa fa-phone"></i>+123-456-7890</p>
             </div>
           </div>
 
@@ -205,24 +274,19 @@
             <div class="footer-widget">
               <h3 class="title">Quick Links</h3>
               <ul>
-                <li><a href="#">Posuere egestas</a></li>
-                <li><a href="#">Sollicitudin</a></li>
-                <li><a href="#">Luctus non</a></li>
-                <li><a href="#">Duis tincidunt</a></li>
-                <li><a href="#">Elementum</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Health</a></li>
               </ul>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-widget">
-              <h3 class="title">Get in Touch</h3>
+              <h3 class="title">Follow Us</h3>
               <div class="contact-info">
-                <p>
-                  <i class="fa fa-map-marker"></i>123 Terry Lane, New York, USA
-                </p>
-                <p><i class="fa fa-envelope"></i>email@example.com</p>
-                <p><i class="fa fa-phone"></i>+123-456-7890</p>
                 <div class="social">
                   <a href=""><i class="fab fa-twitter"></i></a>
                   <a href=""><i class="fab fa-facebook"></i></a>
@@ -236,40 +300,14 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-widget">
-              <h3 class="title">Newsletter</h3>
-              <div class="newsletter">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vivamus sed porta dui. Class aptent taciti sociosqu ad litora
-                  torquent per conubia nostra inceptos
-                </p>
-                <form>
-                  <input
-                    class="form-control"
-                    type="email"
-                    placeholder="Your email here"
-                  />
-                  <button class="btn">Submit</button>
-                </form>
-              </div>
+              <h3 class="title">All Rights Reserved</h3>
+              <p>Copyright &copy; 2023 <a href="#">COGY</a>.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Footer End -->
-
-    <!-- Footer Bottom Start -->
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="copyright">
-            <p>Copyright &copy; COGY.SOLUTIONS All Rights Reserved</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Footer Bottom End -->
 
     <!-- Back to Top -->
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>

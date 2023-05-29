@@ -109,7 +109,6 @@ function displayTrendNews() {
       document.querySelector("#lefttrend").appendChild(div);
     });
 }
-setTimeout(3000);
 
 async function category1(url1, url2) {
   try {
@@ -264,7 +263,6 @@ async function category1(url1, url2) {
     console.error("An error occurred:", error.message);
   }
 }
-setTimeout(4000);
 
 async function category2(url1, url2) {
   try {
@@ -366,7 +364,6 @@ async function category2(url1, url2) {
     console.error("An error occurred:", error.message);
   }
 }
-setTimeout(5000);
 
 async function category3(url1, url2) {
   try {
@@ -625,20 +622,186 @@ async function category3(url1, url2) {
     console.error("An error occurred:", error.message);
   }
 }
-setTimeout(6000);
+
+async function businesspage(url1) {
+  try {
+    const url1 =
+      "https://gnews.io/api/v4/top-headlines?category=business&country=any&lang=en&max=10&apikey=" +
+      apiKey3;
+
+    const busresponse = await fetch(url1);
+    const busdata = await busresponse.json();
+    console.log(busdata);
+
+    const div = document.createElement("div");
+    div.classList = "top-news";
+    div.innerHTML = `
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-4 tn-left">
+            <div class="tn-img mb-5">
+              <img src="${busdata.articles[0].image}" height="490" />
+              <div class="tn-content">
+                <div class="tn-content-inner">
+                  <a class="tn-date" href="${busdata.articles[0].url}"
+                    ><i class="far fa-clock"></i>${busdata.articles[0].publishedAt}</a
+                  >
+                  <a class="tn-title" href="${busdata.articles[0].url}"
+                    >${busdata.articles[0].title}</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 tn-right">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="img/top-news-2.jpg" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href=""
+                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      >
+                      <a class="tn-title" href=""
+                        >Integer faucibus pharetra odio</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="img/top-news-3.jpg" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href=""
+                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      >
+                      <a class="tn-title" href=""
+                        >Nulla vitae pharetra ligula</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="img/top-news-4.jpg" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href=""
+                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      >
+                      <a class="tn-title" href=""
+                        >Ut ac euismod tellus a blandit</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="img/top-news-5.jpg" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href=""
+                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      >
+                      <a class="tn-title" href=""
+                        >Cras ac egestas sem nec euismod</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="img/top-news-2.jpg" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href=""
+                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      >
+                      <a class="tn-title" href=""
+                        >Integer faucibus pharetra odio</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="img/top-news-3.jpg" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href=""
+                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      >
+                      <a class="tn-title" href=""
+                        >Nulla vitae pharetra ligula</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="img/top-news-4.jpg" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href=""
+                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      >
+                      <a class="tn-title" href=""
+                        >Ut ac euismod tellus a blandit</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="img/top-news-5.jpg" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href=""
+                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      >
+                      <a class="tn-title" href=""
+                        >Cras ac egestas sem nec euismod</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        `;
+    document.querySelector("#businesspage").appendChild(div);
+  } catch (error) {
+    console.error("An error occurred:", error.message);
+  }
+}
 
 function init() {
   switch (global.currentPage) {
     case "/":
     case "/index.html":
-      displayTrendNews();
-      category1();
-      category2();
-      category3();
+      // displayTrendNews();
+      // category1();
+      // category2();
+      // category3();
 
       break;
-    case "/shows.html":
-      //   displayPopularShows();
+    case "/business.html":
+      businesspage();
       break;
     case "/movie-details.html":
       //   displayMovieDetails();
