@@ -955,7 +955,7 @@ async function entertainmentpage(url1) {
     console.error("An error occurred:", error.message);
   }
 }
-async function technologypage(url1) {
+async function sportspage(url1) {
   try {
     const url1 =
       "https://gnews.io/api/v4/top-headlines?category=business&country=any&lang=en&max=10&apikey=" +
@@ -1121,7 +1121,172 @@ async function technologypage(url1) {
     console.error("An error occurred:", error.message);
   }
 }
+async function sportspage(url1) {
+  try {
+    const url1 =
+      "https://gnews.io/api/v4/top-headlines?category=sports&country=any&lang=en&max=10&apikey=" +
+      apiKey3;
 
+    const response = await fetch(url1);
+    const data = await response.json();
+    console.log(data);
+
+    const div = document.createElement("div");
+    div.classList = "top-news";
+    div.innerHTML = `
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-4 tn-left">
+            <div class="tn-img mb-5">
+              <img src="${data.articles[0].image}" height="490" />
+              <div class="tn-content">
+                <div class="tn-content-inner">
+                  <a class="tn-date" href="${data.articles[0].url}"
+                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt}</a
+                  >
+                  <a class="tn-title" href="${data.articles[0].url}"
+                    >${data.articles[0].title}</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 tn-right">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[1].image}" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[1].url}"
+                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[1].url}"
+                        >${data.articles[1].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[2].image}" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[2].url}"
+                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[2].url}"
+                        >${data.articles[2].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[3].image}" height="233" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[3].url}"
+                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[3].url}"
+                        >${data.articles[3].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[4].image}" height="234" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[4].url}"
+                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[4].url}"
+                        >${data.articles[4].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[5].image}" height="235" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[5].url}"
+                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[5].url}"
+                        >${data.articles[5].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[6].image}" height="236" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[6].url}"
+                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[6].url}"
+                        >${data.articles[6].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[7].image}" height="237" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[7].url}"
+                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[7].url}"
+                        >${data.articles[7].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[8].image}" height="238" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[8].url}"
+                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[8].url}"
+                        >${data.articles[8].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        `;
+    document.querySelector("#sportspage").appendChild(div);
+  } catch (error) {
+    console.error("An error occurred:", error.message);
+  }
+}
 function init() {
   switch (global.currentPage) {
     case "/":
@@ -1146,6 +1311,9 @@ function init() {
       break;
    case "/entertainment.html":
         // entertainmentpage();
+      break;
+      case "/sports.html":
+        // sportspage();
       break;
   }
 
