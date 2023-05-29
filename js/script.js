@@ -640,14 +640,14 @@ async function businesspage(url1) {
         <div class="row justify-content-center align-items-center">
           <div class="col-md-4 tn-left">
             <div class="tn-img mb-5">
-              <img src="${busdata.articles[0].image}" height="490" />
+              <img src="${data.articles[0].image}" height="490" />
               <div class="tn-content">
                 <div class="tn-content-inner">
-                  <a class="tn-date" href="${busdata.articles[0].url}"
-                    ><i class="far fa-clock"></i>${busdata.articles[0].publishedAt}</a
+                  <a class="tn-date" href="${data.articles[0].url}"
+                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt}</a
                   >
-                  <a class="tn-title" href="${busdata.articles[0].url}"
-                    >${busdata.articles[0].title}</a
+                  <a class="tn-title" href="${data.articles[0].url}"
+                    >${data.articles[0].title}</a
                   >
                 </div>
               </div>
@@ -657,14 +657,14 @@ async function businesspage(url1) {
             <div class="row">
               <div class="col-md-6">
                 <div class="tn-img">
-                  <img src="img/top-news-2.jpg" height="230" />
+                  <img src="${data.articles[1].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href=""
-                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      <a class="tn-date" href="${data.articles[1].url}"
+                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt}</a
                       >
-                      <a class="tn-title" href=""
-                        >Integer faucibus pharetra odio</a
+                      <a class="tn-title" href="${data.articles[1].url}"
+                        >${data.articles[1].title}</a
                       >
                     </div>
                   </div>
@@ -672,14 +672,14 @@ async function businesspage(url1) {
               </div>
               <div class="col-md-6">
                 <div class="tn-img">
-                  <img src="img/top-news-3.jpg" height="230" />
+                  <img src="${busdata.articles[2].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href=""
-                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      <a class="tn-date" href="${data.articles[2].url}"
+                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt}</a
                       >
-                      <a class="tn-title" href=""
-                        >Nulla vitae pharetra ligula</a
+                      <a class="tn-title" href="${data.articles[2].url}"
+                        >${data.articles[2].title}</a
                       >
                     </div>
                   </div>
@@ -687,14 +687,14 @@ async function businesspage(url1) {
               </div>
               <div class="col-md-6">
                 <div class="tn-img">
-                  <img src="img/top-news-4.jpg" height="230" />
+                  <img src="${data.articles[3].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href=""
-                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      <a class="tn-date" href="${data.articles[3].url}"
+                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt}</a
                       >
-                      <a class="tn-title" href=""
-                        >Ut ac euismod tellus a blandit</a
+                      <a class="tn-title" href="${data.articles[3].url}"
+                        >${data.articles[3].title}</a
                       >
                     </div>
                   </div>
@@ -702,14 +702,14 @@ async function businesspage(url1) {
               </div>
               <div class="col-md-6">
                 <div class="tn-img">
-                  <img src="img/top-news-5.jpg" height="230" />
+                  <img src="${data.articles[4].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href=""
-                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      <a class="tn-date" href="${data.articles[4].url}"
+                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt}</a
                       >
-                      <a class="tn-title" href=""
-                        >Cras ac egestas sem nec euismod</a
+                      <a class="tn-title" href="${data.articles[4].url}"
+                        >${data.articles[4].title}</a
                       >
                     </div>
                   </div>
@@ -721,14 +721,14 @@ async function businesspage(url1) {
             <div class="row">
               <div class="col-md-6">
                 <div class="tn-img">
-                  <img src="img/top-news-2.jpg" height="230" />
+                  <img src="${data.articles[5].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href=""
-                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      <a class="tn-date" href="${data.articles[5].url}"
+                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt}</a
                       >
-                      <a class="tn-title" href=""
-                        >Integer faucibus pharetra odio</a
+                      <a class="tn-title" href="${data.articles[5].url}"
+                        >${data.articles[5].title}</a
                       >
                     </div>
                   </div>
@@ -736,14 +736,14 @@ async function businesspage(url1) {
               </div>
               <div class="col-md-6">
                 <div class="tn-img">
-                  <img src="img/top-news-3.jpg" height="230" />
+                  <img src="${data.articles[6].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href=""
-                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      <a class="tn-date" href="${data.articles[6].url}"
+                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt}</a
                       >
-                      <a class="tn-title" href=""
-                        >Nulla vitae pharetra ligula</a
+                      <a class="tn-title" href="${data.articles[6].url}"
+                        >${data.articles[6].title}</a
                       >
                     </div>
                   </div>
@@ -751,14 +751,14 @@ async function businesspage(url1) {
               </div>
               <div class="col-md-6">
                 <div class="tn-img">
-                  <img src="img/top-news-4.jpg" height="230" />
+                  <img src="${data.articles[7].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href=""
-                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      <a class="tn-date" href="${data.articles[7].url}"
+                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt}</a
                       >
-                      <a class="tn-title" href=""
-                        >Ut ac euismod tellus a blandit</a
+                      <a class="tn-title" href="${data.articles[7].url}"
+                        >${data.articles[7].title}</a
                       >
                     </div>
                   </div>
@@ -766,14 +766,180 @@ async function businesspage(url1) {
               </div>
               <div class="col-md-6">
                 <div class="tn-img">
-                  <img src="img/top-news-5.jpg" height="230" />
+                  <img src="${data.articles[8].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href=""
-                        ><i class="far fa-clock"></i>05-Feb-2020</a
+                      <a class="tn-date" href="${data.articles[8].url}"
+                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt}</a
                       >
-                      <a class="tn-title" href=""
-                        >Cras ac egestas sem nec euismod</a
+                      <a class="tn-title" href="${data.articles[8].url}"
+                        >${data.articles[8].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        `;
+    document.querySelector("#businesspage").appendChild(div);
+  } catch (error) {
+    console.error("An error occurred:", error.message);
+  }
+}
+async function entertainmentpage(url1) {
+  try {
+    const url1 =
+      "https://gnews.io/api/v4/top-headlines?category=entertainment&country=any&lang=en&max=10&apikey=" +
+      apiKey3;
+
+    const entresponse = await fetch(url1);
+    const data = await entresponse.json();
+    console.log(data);
+
+    const div = document.createElement("div");
+    div.classList = "top-news";
+    div.innerHTML = `
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-4 tn-left">
+            <div class="tn-img mb-5">
+              <img src="${data.articles[0].image}" height="490" />
+              <div class="tn-content">
+                <div class="tn-content-inner">
+                  <a class="tn-date" href="${data.articles[0].url}"
+                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt}</a
+                  >
+                  <a class="tn-title" href="${data.articles[0].url}"
+                    >${data.articles[0].title}</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 tn-right">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[1].image}" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[1].url}"
+                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[1].url}"
+                        >${data.articles[1].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${busdata.articles[2].image}" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[2].url}"
+                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[2].url}"
+                        >${data.articles[2].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[3].image}" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[3].url}"
+                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[3].url}"
+                        >${data.articles[3].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[4].image}" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[4].url}"
+                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[4].url}"
+                        >${data.articles[4].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[5].image}" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[5].url}"
+                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[5].url}"
+                        >${data.articles[5].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[6].image}" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[6].url}"
+                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[6].url}"
+                        >${data.articles[6].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[7].image}" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[7].url}"
+                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[7].url}"
+                        >${data.articles[7].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${data.articles[8].image}" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${data.articles[8].url}"
+                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${data.articles[8].url}"
+                        >${data.articles[8].title}</a
                       >
                     </div>
                   </div>
@@ -811,6 +977,9 @@ function init() {
       break;
     case "/search.html":
       //   search();
+      break;
+   case "/entertainment.html":
+        // entertainmentpage();
       break;
   }
 
