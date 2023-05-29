@@ -955,7 +955,7 @@ async function entertainmentpage(url1) {
     console.error("An error occurred:", error.message);
   }
 }
-async function technologypage(url1) {
+async function sportspage(url1) {
   try {
     const url1 =
       "https://gnews.io/api/v4/top-headlines?category=business&country=any&lang=en&max=10&apikey=" +
@@ -1121,14 +1121,9 @@ async function technologypage(url1) {
     console.error("An error occurred:", error.message);
   }
 }
-async function sciencepage(url1) {
-  try {
-    const url1 =
-      "https://gnews.io/api/v4/top-headlines?category=science&country=any&lang=en&max=10&apikey=" +
-      apiKey2;
 
-    const scienceresponse = await fetch(url1);
-    const data = await scienceresponse.json();
+    const response = await fetch(url1);
+    const data = await response.json();
     console.log(data);
 
     const div = document.createElement("div");
@@ -1282,12 +1277,11 @@ async function sciencepage(url1) {
         </div>
       </div>
         `;
-    document.querySelector("#sciencepage").appendChild(div);
+    document.querySelector("#sportspage").appendChild(div);
   } catch (error) {
     console.error("An error occurred:", error.message);
   }
 }
-
 function init() {
   switch (global.currentPage) {
     case "/":
@@ -1312,6 +1306,9 @@ function init() {
       break;
     case "/entertainment.html":
       // entertainmentpage();
+      break;
+      case "/sports.html":
+        // sportspage();
       break;
   }
 
