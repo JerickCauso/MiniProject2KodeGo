@@ -12,7 +12,7 @@ const apiKey2 = "e701311bc9b2249184c539cd496d8466";
 const apiKey3 = "bd6c2317d02803fb4cf4fa5deaff149c";
 const apiKey4 = "26fd80a7289d79b300b99af28392c8c7";
 const apiKey5 = "d7dfd99147ac538715d80f39a0277163";
-const apiKey6 = "1321923f82f3680d72f02d2147d154b6";
+// const apiKey6 = "1321923f82f3680d72f02d2147d154b6";
 
 // Trending News
 function displayTrendNews() {
@@ -1789,6 +1789,203 @@ async function healthpage(url1) {
   }
 }
 
+async function searchpage() {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+
+  // global.search.type = urlParams.get("type");
+  global.search.term = urlParams.get("search-term");
+
+  if (global.search.term !== "" && global.search.term !== null) {
+    // const { results, total_pages, page } = await searchAPIData();
+    const results = await searchAPIData();
+    console.log(results);
+    // if (results.length === 0) {
+    //   showAlert("No results found");
+    //   return;
+    // }
+    // displaySearchResults(results);
+    const div = document.createElement("div");
+    div.classList = "top-news";
+    div.innerHTML = `
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-4 tn-left">
+            <div class="tn-img mb-5">
+              <img src="${results.articles[0].image}" height="490" />
+              <div class="tn-content">
+                <div class="tn-content-inner">
+                  <a class="tn-date" href="${results.articles[0].url}"
+                    ><i class="far fa-clock"></i>${results.articles[0].publishedAt}</a
+                  >
+                  <a class="tn-title" href="${results.articles[0].url}"
+                    >${results.articles[0].title}</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 tn-right">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${results.articles[1].image}" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${results.articles[1].url}"
+                        ><i class="far fa-clock"></i>${results.articles[1].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${results.articles[1].url}"
+                        >${results.articles[1].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${results.articles[2].image}" height="230" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${results.articles[2].url}"
+                        ><i class="far fa-clock"></i>${results.articles[2].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${results.articles[2].url}"
+                        >${results.articles[2].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${results.articles[3].image}" height="233" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${results.articles[3].url}"
+                        ><i class="far fa-clock"></i>${results.articles[3].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${results.articles[3].url}"
+                        >${results.articles[3].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${results.articles[4].image}" height="234" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${results.articles[4].url}"
+                        ><i class="far fa-clock"></i>${results.articles[4].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${results.articles[4].url}"
+                        >${results.articles[4].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${results.articles[5].image}" height="235" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${results.articles[5].url}"
+                        ><i class="far fa-clock"></i>${results.articles[5].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${results.articles[5].url}"
+                        >${results.articles[5].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${results.articles[6].image}" height="236" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${results.articles[6].url}"
+                        ><i class="far fa-clock"></i>${results.articles[6].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${results.articles[6].url}"
+                        >${results.articles[6].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${results.articles[7].image}" height="237" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${results.articles[7].url}"
+                        ><i class="far fa-clock"></i>${results.articles[7].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${results.articles[7].url}"
+                        >${results.articles[7].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tn-img">
+                  <img src="${results.articles[8].image}" height="238" />
+                  <div class="tn-content">
+                    <div class="tn-content-inner">
+                      <a class="tn-date" href="${results.articles[8].url}"
+                        ><i class="far fa-clock"></i>${results.articles[8].publishedAt}</a
+                      >
+                      <a class="tn-title" href="${results.articles[8].url}"
+                        >${results.articles[8].title}</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        `;
+    document.querySelector("#searchresults").appendChild(div);
+
+    document.querySelector("#search-term").value = "";
+  } else {
+    showAlert("Please enter search term");
+  }
+}
+
+// function displaySearchResults(results) {
+//   console.log(results);
+// }
+
+async function searchAPIData() {
+  // const API_URL = global.api.apiUrl;
+  // const API_KEY = global.api.apiKey;
+  const apiKey6 = "1321923f82f3680d72f02d2147d154b6";
+
+  // showSpinner();
+
+  const response = await fetch(
+    `https://gnews.io/api/v4/search?q=${global.search.term}&apikey=${apiKey6}`
+  );
+
+  const data = await response.json();
+
+  // hideSpinner();
+
+  return data;
+}
+
 function init() {
   switch (global.currentPage) {
     case "/":
@@ -1815,6 +2012,9 @@ function init() {
       break;
     case "/health.html":
       // healthpage();
+      break;
+    case "/search.html":
+      // searchpage();
       break;
   }
 }
