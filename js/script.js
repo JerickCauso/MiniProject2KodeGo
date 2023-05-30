@@ -2014,7 +2014,7 @@ function init() {
       // healthpage();
       break;
     case "/search.html":
-      // searchpage();
+      searchpage();
       break;
   }
 }

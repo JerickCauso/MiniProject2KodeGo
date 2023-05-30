@@ -73,7 +73,9 @@
             id="navbarCollapse"
           >
             <div class="navbar-nav m-auto">
-              <a href="index.html" class="nav-item nav-link "><img src="./img/tdg2.png" height="30px"/></a>
+              <a href="index.html" class="nav-item nav-link"
+                ><img src="./img/tdg2.png" height="30px"
+              /></a>
               <a href="./business.html" class="nav-item nav-link">Business</a>
               <a href="./technology.html" class="nav-item nav-link"
                 >Technology</a
@@ -87,10 +89,18 @@
                 >Health</a
               >
               <div class="search nav-item nav-link mx-auto p-2">
-                <input class="rounded-2" type="text" placeholder="Search" />
-                <button class="rounded-2">
-                  <i class="fa fa-search"></i>
-                </button>
+                <form action="./search.html">
+                  <input
+                    class="rounded-2"
+                    type="text"
+                    name="search-term"
+                    id="search-term"
+                    placeholder="Trending"
+                  />
+                  <button class="rounded-2" type="submit">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </form>
               </div>
             </div>
           </div>
