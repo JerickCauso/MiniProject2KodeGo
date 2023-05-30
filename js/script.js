@@ -7,15 +7,18 @@ const global = {
     totalPages: 1,
   },
 };
-const apiKey = "9167dae881545d7d1ebf42ac1186d6ae";
+const apiKey1 = "9167dae881545d7d1ebf42ac1186d6ae";
 const apiKey2 = "e701311bc9b2249184c539cd496d8466";
 const apiKey3 = "bd6c2317d02803fb4cf4fa5deaff149c";
+const apiKey4 = "26fd80a7289d79b300b99af28392c8c7";
+const apiKey5 = "d7dfd99147ac538715d80f39a0277163";
+const apiKey6 = "1321923f82f3680d72f02d2147d154b6";
 
 // Trending News
 function displayTrendNews() {
   url =
     "https://gnews.io/api/v4/top-headlines?country=ph&lang=en&max=5&apikey=" +
-    apiKey;
+    apiKey1;
 
   fetch(url)
     .then(function (response) {
@@ -34,7 +37,7 @@ function displayTrendNews() {
                   <a class="tn-date" href="${trendarticles[0].url}"
                     ><i class="far fa-clock"></i>${trendarticles[0].publishedAt}</a
                   >
-                  <a class="tn-title" href=""
+                  <a class="tn-title" href="${trendarticles[0].url}"
                     >${trendarticles[0].title}</a
                   >
                 </div>
@@ -51,7 +54,7 @@ function displayTrendNews() {
                       <a class="tn-date" href="${trendarticles[1].url}"
                         ><i class="far fa-clock"></i>${trendarticles[1].publishedAt}</a
                       >
-                      <a class="tn-title" href=""
+                      <a class="tn-title" href="${trendarticles[1].url}"
                         >${trendarticles[1].title}</a
                       >
                     </div>
@@ -66,7 +69,7 @@ function displayTrendNews() {
                       <a class="tn-date" href="${trendarticles[2].url}"
                         ><i class="far fa-clock"></i>${trendarticles[2].publishedAt}</a
                       >
-                      <a class="tn-title" href=""
+                      <a class="tn-title" href="${trendarticles[2].url}"
                         >${trendarticles[2].title}</a
                       >
                     </div>
@@ -81,7 +84,7 @@ function displayTrendNews() {
                       <a class="tn-date" href="${trendarticles[3].url}"
                         ><i class="far fa-clock"></i>${trendarticles[3].publishedAt}</a
                       >
-                      <a class="tn-title" href=""
+                      <a class="tn-title" href="${trendarticles[3].url}"
                         >${trendarticles[3].title}</a
                       >
                     </div>
@@ -96,7 +99,7 @@ function displayTrendNews() {
                       <a class="tn-date" href="${trendarticles[4].url}"
                         ><i class="far fa-clock"></i>${trendarticles[4].publishedAt}</a
                       >
-                      <a class="tn-title" href=""
+                      <a class="tn-title" href="${trendarticles[4].url}"
                         >${trendarticles[4].title}</a
                       >
                     </div>
@@ -117,7 +120,7 @@ async function category1(url1, url2) {
       apiKey2;
     const url2 =
       "https://gnews.io/api/v4/top-headlines?category=technology&country=ph&lang=en&country=ph&max=10&apikey=" +
-      apiKey2;
+      apiKey3;
 
     const busresponse = await fetch(url1);
     const busdata = await busresponse.json();
@@ -268,10 +271,10 @@ async function category2(url1, url2) {
   try {
     const url1 =
       "https://gnews.io/api/v4/top-headlines?category=entertainment&country=ph&lang=en&country=ph&max=10&apikey=" +
-      apiKey;
+      apiKey4;
     const url2 =
       "https://gnews.io/api/v4/top-headlines?category=sports&country=ph&lang=en&country=ph&max=10&apikey=" +
-      apiKey;
+      apiKe5;
 
     const entresponse = await fetch(url1);
     const entdata = await entresponse.json();
@@ -369,10 +372,10 @@ async function category3(url1, url2) {
   try {
     const url1 =
       "https://gnews.io/api/v4/top-headlines?category=general&country=us&lang=en&max=10&apikey=" +
-      apiKey3;
+      apiKey1;
     const url2 =
       "https://gnews.io/api/v4/top-headlines?category=general&country=any&lang=en&max=10&apikey=" +
-      apiKey3;
+      apiKey2;
     const url3 =
       "http://api.openweathermap.org/data/2.5/weather?q=manila&appid=1b0d4e056d91c25a4fe8658fd55f3f06&units=metric";
 
@@ -627,11 +630,11 @@ async function businesspage(url1) {
   try {
     const url1 =
       "https://gnews.io/api/v4/top-headlines?category=business&country=any&lang=en&max=10&apikey=" +
-      apiKey3;
+      apiKey4;
 
     const busresponse = await fetch(url1);
-    const busdata = await busresponse.json();
-    console.log(busdata);
+    const data = await busresponse.json();
+    console.log(data);
 
     const div = document.createElement("div");
     div.classList = "top-news";
@@ -672,7 +675,7 @@ async function businesspage(url1) {
               </div>
               <div class="col-md-6">
                 <div class="tn-img">
-                  <img src="${busdata.articles[2].image}" height="230" />
+                  <img src="${data.articles[2].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[2].url}"
@@ -793,7 +796,7 @@ async function technologypage(url1) {
   try {
     const url1 =
       "https://gnews.io/api/v4/top-headlines?category=technology&country=any&lang=en&max=10&apikey=" +
-      apiKey2;
+      apiKey5;
 
     const techresponse = await fetch(url1);
     const data = await techresponse.json();
@@ -1125,7 +1128,7 @@ async function entertainmentpage(url1) {
   try {
     const url1 =
       "https://gnews.io/api/v4/top-headlines?category=entertainment&country=any&lang=en&max=10&apikey=" +
-      apiKey3;
+      apiKey5;
 
     const entresponse = await fetch(url1);
     const data = await entresponse.json();
@@ -1170,7 +1173,7 @@ async function entertainmentpage(url1) {
               </div>
               <div class="col-md-6">
                 <div class="tn-img">
-                  <img src="${busdata.articles[2].image}" height="230" />
+                  <img src="${data.articles[2].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[2].url}"
@@ -1282,7 +1285,7 @@ async function entertainmentpage(url1) {
         </div>
       </div>
         `;
-    document.querySelector("#businesspage").appendChild(div);
+    document.querySelector("#entertainmentpage").appendChild(div);
   } catch (error) {
     console.error("An error occurred:", error.message);
   }
@@ -1290,8 +1293,8 @@ async function entertainmentpage(url1) {
 async function sportspage(url1) {
   try {
     const url1 =
-      "https://gnews.io/api/v4/top-headlines?category=business&country=any&lang=en&max=10&apikey=" +
-      apiKey3;
+      "https://gnews.io/api/v4/top-headlines?category=sports&country=any&lang=en&max=10&apikey=" +
+      apiKey4;
 
     const techresponse = await fetch(url1);
     const data = await techresponse.json();
@@ -1448,7 +1451,7 @@ async function sportspage(url1) {
         </div>
       </div>
         `;
-    document.querySelector("#technologypage").appendChild(div);
+    document.querySelector("#sportspage").appendChild(div);
   } catch (error) {
     console.error("An error occurred:", error.message);
   }
@@ -1457,7 +1460,7 @@ async function sciencepage(url1) {
   try {
     const url1 =
       "https://gnews.io/api/v4/top-headlines?category=science&country=any&lang=en&max=10&apikey=" +
-      apiKey3;
+      apiKey5;
 
     const scienceresponse = await fetch(url1);
     const data = await scienceresponse.json();
@@ -1623,7 +1626,7 @@ async function healthpage(url1) {
   try {
     const url1 =
       "https://gnews.io/api/v4/top-headlines?category=health&country=any&lang=en&max=10&apikey=" +
-      apiKey2;
+      apiKey4;
 
     const response = await fetch(url1);
     const data = await response.json();
@@ -1786,41 +1789,34 @@ async function healthpage(url1) {
   }
 }
 
-
 function init() {
   switch (global.currentPage) {
     case "/":
     case "/index.html":
-      // displayTrendNews();
-      // category1();
-      // category2();
-      // category3();
-
+      displayTrendNews();
+      category1();
+      category2();
+      category3();
       break;
     case "/business.html":
-      // businesspage();
+      businesspage();
       break;
     case "/technology.html":
-      // technologypage();
-      break;
-    case "/entertainment.html":
-      //   displayShowDetails();
+      technologypage();
       break;
     case "/science.html":
-      // sciencepage();
+      sciencepage();
       break;
     case "/entertainment.html":
-      // entertainmentpage();
+      entertainmentpage();
       break;
     case "/sports.html":
-      // sportspage();
+      sportspage();
       break;
-      case "/health.html":
+    case "/health.html":
       healthpage();
       break;
   }
-
-  //   highlightActiveLink();
 }
 
 document.addEventListener("DOMContentLoaded", init);
