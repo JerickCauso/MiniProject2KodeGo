@@ -2041,27 +2041,27 @@ function init() {
     case "/":
     case "/index.html":
       displayTrendNews();
-      // category1();
-      // category2();
-      // category3();
+      category1();
+      category2();
+      category3();
       break;
     case "/business.html":
-      // businesspage();
+      businesspage();
       break;
     case "/technology.html":
-      // technologypage();
+      technologypage();
       break;
     case "/science.html":
-      // sciencepage();
+      sciencepage();
       break;
     case "/entertainment.html":
-      // entertainmentpage();
+      entertainmentpage();
       break;
     case "/sports.html":
-      // sportspage();
+      sportspage();
       break;
     case "/health.html":
-      // healthpage();
+      healthpage();
       break;
     case "/search.html":
       searchpage();

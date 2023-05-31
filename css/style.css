@@ -1060,4 +1060,9 @@ button.btn:hover {
   .footer-bottom .template-by {
     text-align: center;
   }
+  #date-time {display:none}
+}
+@media (min-width: 1200px) {
+ 
+  #date-time {display:none}
 }
