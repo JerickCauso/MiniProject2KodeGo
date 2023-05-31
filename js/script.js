@@ -2035,7 +2035,7 @@ function getDateTime() {
   let timeNow = hours + ":" + minutes + ":" + seconds + " " + ampm;
   document.getElementById("time-now").innerHTML = timeNow;
 }
-setInterval(getDateTime, 1000);
+setInterval(getDateTime, 0);
 function init() {
   switch (global.currentPage) {
     case "/":
