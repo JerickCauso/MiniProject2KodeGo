@@ -1979,7 +1979,63 @@ async function searchAPIData() {
 
   return data;
 }
+// ========== { to display dynamic date } ========== \\
+function getDateTime() {
+  let now = new Date();
+  let hours = now.getHours();
+  let minutes = now.getMinutes();
+  let seconds = now.getSeconds();
+  let days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
 
+  if (hours < 10) {
+    hours = "0" + hours;
+  }
+  if (minutes < 10) {
+    minutes = "0" + minutes;
+  }
+  if (seconds < 10) {
+    seconds = "0" + seconds;
+  }
+
+  // display date today
+  let dateToday =
+    days[now.getDay()] +
+    "," +
+    " " +
+    now.getDate() +
+    " " +
+    months[now.getMonth()];
+
+  document.getElementById("date-today").innerHTML = dateToday;
+
+  // display time now
+  let ampm = hours >= 12 ? "pm" : "am";
+  let timeNow = hours + ":" + minutes + ":" + seconds + " " + ampm;
+  document.getElementById("time-now").innerHTML = timeNow;
+}
+setInterval(getDateTime, 1000);
 function init() {
   switch (global.currentPage) {
     case "/":
