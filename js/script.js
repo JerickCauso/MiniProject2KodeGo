@@ -35,7 +35,7 @@ function displayTrendNews() {
               <div class="tn-content">
                 <div class="tn-content-inner">
                   <a class="tn-date" href="${trendarticles[0].url}"
-                    ><i class="far fa-clock"></i>${trendarticles[0].publishedAt}</a
+                    ><i class="far fa-clock"></i>${trendarticles[0].publishedAt.slice(0, 10)}</a
                   >
                   <a class="tn-title" href="${trendarticles[0].url}"
                     >${trendarticles[0].title}</a
@@ -52,7 +52,7 @@ function displayTrendNews() {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${trendarticles[1].url}"
-                        ><i class="far fa-clock"></i>${trendarticles[1].publishedAt}</a
+                        ><i class="far fa-clock"></i>${trendarticles[1].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${trendarticles[1].url}"
                         >${trendarticles[1].title}</a
@@ -67,7 +67,7 @@ function displayTrendNews() {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${trendarticles[2].url}"
-                        ><i class="far fa-clock"></i>${trendarticles[2].publishedAt}</a
+                        ><i class="far fa-clock"></i>${trendarticles[2].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${trendarticles[2].url}"
                         >${trendarticles[2].title}</a
@@ -82,7 +82,7 @@ function displayTrendNews() {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${trendarticles[3].url}"
-                        ><i class="far fa-clock"></i>${trendarticles[3].publishedAt}</a
+                        ><i class="far fa-clock"></i>${trendarticles[3].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${trendarticles[3].url}"
                         >${trendarticles[3].title}</a
@@ -97,7 +97,7 @@ function displayTrendNews() {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${trendarticles[4].url}"
-                        ><i class="far fa-clock"></i>${trendarticles[4].publishedAt}</a
+                        ><i class="far fa-clock"></i>${trendarticles[4].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${trendarticles[4].url}"
                         >${trendarticles[4].title}</a
@@ -144,7 +144,7 @@ async function category1(url1, url2) {
                   <div class="cn-content">
                     <div class="cn-content-inner">
                       <a class="cn-date" href="${busdata.articles[0].url}"
-                        ><i class="far fa-clock"></i>${busdata.articles[0].publishedAt}</a
+                        ><i class="far fa-clock"></i>${busdata.articles[0].publishedAt.slice(0, 10)}</a
                       >
                       <a class="cn-title" href="${busdata.articles[0].image}"
                         >${busdata.articles[0].title}</a
@@ -159,7 +159,7 @@ async function category1(url1, url2) {
                   <div class="cn-content">
                     <div class="cn-content-inner">
                       <a class="cn-date" href="${busdata.articles[1].url}"
-                        ><i class="far fa-clock"></i>${busdata.articles[1].publishedAt}</a
+                        ><i class="far fa-clock"></i>${busdata.articles[1].publishedAt.slice(0, 10)}</a
                       >
                       <a class="cn-title" href="${busdata.articles[1].url}"
                         >${busdata.articles[1].title}</a
@@ -174,7 +174,7 @@ async function category1(url1, url2) {
                   <div class="cn-content">
                     <div class="cn-content-inner">
                       <a class="cn-date" href="${busdata.articles[2].url}"
-                        ><i class="far fa-clock"></i>${busdata.articles[2].publishedAt}</a
+                        ><i class="far fa-clock"></i>${busdata.articles[2].publishedAt.slice(0, 10)}</a
                       >
                       <a class="cn-title" href="${busdata.articles[2].url}">${busdata.articles[2].title}</a>
                     </div>
@@ -187,7 +187,7 @@ async function category1(url1, url2) {
                   <div class="cn-content">
                     <div class="cn-content-inner">
                       <a class="cn-date" href="${busdata.articles[3].url}"
-                        ><i class="far fa-clock"></i>${busdata.articles[3].publishedAt}</a
+                        ><i class="far fa-clock"></i>${busdata.articles[3].publishedAt.slice(0, 10)}</a
                       >
                       <a class="cn-title" href="${busdata.articles[3].url}">${busdata.articles[3].title}</a>
                     </div>
@@ -205,7 +205,7 @@ async function category1(url1, url2) {
                   <div class="cn-content">
                     <div class="cn-content-inner">
                       <a class="cn-date" href="${techdata.articles[0].url}"
-                        ><i class="far fa-clock"></i>${techdata.articles[0].publishedAt}</a
+                        ><i class="far fa-clock"></i>${techdata.articles[0].publishedAt.slice(0, 10)}</a
                       >
                       <a class="cn-title" href="${techdata.articles[0].url}"
                         >${techdata.articles[0].title}</a
@@ -220,7 +220,7 @@ async function category1(url1, url2) {
                   <div class="cn-content">
                     <div class="cn-content-inner">
                       <a class="cn-date" href="${techdata.articles[1].url}"
-                        ><i class="far fa-clock"></i>${techdata.articles[1].publishedAt}</a
+                        ><i class="far fa-clock"></i>${techdata.articles[1].publishedAt.slice(0, 10)}</a
                       >
                       <a class="cn-title" href="${techdata.articles[1].url}"
                         >${techdata.articles[1].title}</a
@@ -235,7 +235,7 @@ async function category1(url1, url2) {
                   <div class="cn-content">
                     <div class="cn-content-inner">
                       <a class="cn-date" href="${techdata.articles[2].url}"
-                        ><i class="far fa-clock"></i>${techdata.articles[2].publishedAt}</a
+                        ><i class="far fa-clock"></i>${techdata.articles[2].publishedAt.slice(0, 10)}</a
                       >
                       <a class="cn-title" href="${techdata.articles[2].url}">${techdata.articles[2].title}</a>
                     </div>
@@ -248,7 +248,7 @@ async function category1(url1, url2) {
                   <div class="cn-content">
                     <div class="cn-content-inner">
                       <a class="cn-date" href="${techdata.articles[3].url}"
-                        ><i class="far fa-clock"></i>${techdata.articles[3].publishedAt}</a
+                        ><i class="far fa-clock"></i>${techdata.articles[3].publishedAt.slice(0, 10)}</a
                       >
                       <a class="cn-title" href="${techdata.articles[3].url}">${techdata.articles[3].title}</a>
                     </div>
@@ -297,7 +297,7 @@ async function category2(url1, url2) {
                       <div class="cn-content">
                         <div class="cn-content-inner">
                           <a class="cn-date" href="${entdata.articles[0].url}"
-                            ><i class="far fa-clock"></i>${entdata.articles[0].publishedAt}</a
+                            ><i class="far fa-clock"></i>${entdata.articles[0].publishedAt.slice(0, 10)}</a
                           >
                           <a class="cn-title" href="${entdata.articles[0].url}"
                             >${entdata.articles[0].title}</a
@@ -312,7 +312,7 @@ async function category2(url1, url2) {
                       <div class="cn-content">
                         <div class="cn-content-inner">
                           <a class="cn-date" href="${entdata.articles[1].url}"
-                            ><i class="far fa-clock"></i>${entdata.articles[1].publishedAt}</a
+                            ><i class="far fa-clock"></i>${entdata.articles[1].publishedAt.slice(0, 10)}</a
                           >
                           <a class="cn-title" href="${entdata.articles[1].url}"
                             >${entdata.articles[1].title}</a
@@ -332,7 +332,7 @@ async function category2(url1, url2) {
                       <div class="cn-content">
                         <div class="cn-content-inner">
                           <a class="cn-date" href="${sportsdata.articles[0].url}"
-                            ><i class="far fa-clock"></i>${sportsdata.articles[0].publishedAt}</a
+                            ><i class="far fa-clock"></i>${sportsdata.articles[0].publishedAt.slice(0, 10)}</a
                           >
                           <a class="cn-title" href="${sportsdata.articles[0].url}"
                             >${sportsdata.articles[0].title}</a
@@ -347,7 +347,7 @@ async function category2(url1, url2) {
                       <div class="cn-content">
                         <div class="cn-content-inner">
                           <a class="cn-date" href="${sportsdata.articles[1].url}"
-                            ><i class="far fa-clock"></i>${sportsdata.articles[1].publishedAt}</a
+                            ><i class="far fa-clock"></i>${sportsdata.articles[1].publishedAt.slice(0, 10)}</a
                           >
                           <a class="cn-title" href="${sportsdata.articles[1].url}"
                             >${sportsdata.articles[1].title}</a
@@ -647,7 +647,7 @@ async function businesspage(url1) {
               <div class="tn-content">
                 <div class="tn-content-inner">
                   <a class="tn-date" href="${data.articles[0].url}"
-                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt}</a
+                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt.slice(0, 10)}</a
                   >
                   <a class="tn-title" href="${data.articles[0].url}"
                     >${data.articles[0].title}</a
@@ -664,7 +664,7 @@ async function businesspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[1].url}"
-                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[1].url}"
                         >${data.articles[1].title}</a
@@ -679,7 +679,7 @@ async function businesspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[2].url}"
-                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[2].url}"
                         >${data.articles[2].title}</a
@@ -694,7 +694,7 @@ async function businesspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[3].url}"
-                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[3].url}"
                         >${data.articles[3].title}</a
@@ -709,7 +709,7 @@ async function businesspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[4].url}"
-                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[4].url}"
                         >${data.articles[4].title}</a
@@ -728,7 +728,7 @@ async function businesspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[5].url}"
-                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[5].url}"
                         >${data.articles[5].title}</a
@@ -743,7 +743,7 @@ async function businesspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[6].url}"
-                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[6].url}"
                         >${data.articles[6].title}</a
@@ -758,7 +758,7 @@ async function businesspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[7].url}"
-                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[7].url}"
                         >${data.articles[7].title}</a
@@ -773,7 +773,7 @@ async function businesspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[8].url}"
-                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[8].url}"
                         >${data.articles[8].title}</a
@@ -813,7 +813,7 @@ async function technologypage(url1) {
               <div class="tn-content">
                 <div class="tn-content-inner">
                   <a class="tn-date" href="${data.articles[0].url}"
-                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt}</a
+                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt.slice(0, 10)}</a
                   >
                   <a class="tn-title" href="${data.articles[0].url}"
                     >${data.articles[0].title}</a
@@ -830,7 +830,7 @@ async function technologypage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[1].url}"
-                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[1].url}"
                         >${data.articles[1].title}</a
@@ -845,7 +845,7 @@ async function technologypage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[2].url}"
-                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[2].url}"
                         >${data.articles[2].title}</a
@@ -860,7 +860,7 @@ async function technologypage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[3].url}"
-                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[3].url}"
                         >${data.articles[3].title}</a
@@ -875,7 +875,7 @@ async function technologypage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[4].url}"
-                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[4].url}"
                         >${data.articles[4].title}</a
@@ -894,7 +894,7 @@ async function technologypage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[5].url}"
-                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[5].url}"
                         >${data.articles[5].title}</a
@@ -909,7 +909,7 @@ async function technologypage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[6].url}"
-                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[6].url}"
                         >${data.articles[6].title}</a
@@ -924,7 +924,7 @@ async function technologypage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[7].url}"
-                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[7].url}"
                         >${data.articles[7].title}</a
@@ -939,7 +939,7 @@ async function technologypage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[8].url}"
-                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[8].url}"
                         >${data.articles[8].title}</a
@@ -978,7 +978,7 @@ async function technologypage(url1) {
                 <div class="tn-content">
                   <div class="tn-content-inner">
                     <a class="tn-date" href="${data.articles[0].url}"
-                      ><i class="far fa-clock"></i>${data.articles[0].publishedAt}</a
+                      ><i class="far fa-clock"></i>${data.articles[0].publishedAt.slice(0, 10)}</a
                     >
                     <a class="tn-title" href="${data.articles[0].url}"
                       >${data.articles[0].title}</a
@@ -995,7 +995,7 @@ async function technologypage(url1) {
                     <div class="tn-content">
                       <div class="tn-content-inner">
                         <a class="tn-date" href="${data.articles[1].url}"
-                          ><i class="far fa-clock"></i>${data.articles[1].publishedAt}</a
+                          ><i class="far fa-clock"></i>${data.articles[1].publishedAt.slice(0, 10)}</a
                         >
                         <a class="tn-title" href="${data.articles[1].url}"
                           >${data.articles[1].title}</a
@@ -1010,7 +1010,7 @@ async function technologypage(url1) {
                     <div class="tn-content">
                       <div class="tn-content-inner">
                         <a class="tn-date" href="${data.articles[2].url}"
-                          ><i class="far fa-clock"></i>${data.articles[2].publishedAt}</a
+                          ><i class="far fa-clock"></i>${data.articles[2].publishedAt.slice(0, 10)}</a
                         >
                         <a class="tn-title" href="${data.articles[2].url}"
                           >${data.articles[2].title}</a
@@ -1025,7 +1025,7 @@ async function technologypage(url1) {
                     <div class="tn-content">
                       <div class="tn-content-inner">
                         <a class="tn-date" href="${data.articles[3].url}"
-                          ><i class="far fa-clock"></i>${data.articles[3].publishedAt}</a
+                          ><i class="far fa-clock"></i>${data.articles[3].publishedAt.slice(0, 10)}</a
                         >
                         <a class="tn-title" href="${data.articles[3].url}"
                           >${data.articles[3].title}</a
@@ -1040,7 +1040,7 @@ async function technologypage(url1) {
                     <div class="tn-content">
                       <div class="tn-content-inner">
                         <a class="tn-date" href="${data.articles[4].url}"
-                          ><i class="far fa-clock"></i>${data.articles[4].publishedAt}</a
+                          ><i class="far fa-clock"></i>${data.articles[4].publishedAt.slice(0, 10)}</a
                         >
                         <a class="tn-title" href="${data.articles[4].url}"
                           >${data.articles[4].title}</a
@@ -1059,7 +1059,7 @@ async function technologypage(url1) {
                     <div class="tn-content">
                       <div class="tn-content-inner">
                         <a class="tn-date" href="${data.articles[5].url}"
-                          ><i class="far fa-clock"></i>${data.articles[5].publishedAt}</a
+                          ><i class="far fa-clock"></i>${data.articles[5].publishedAt.slice(0, 10)}</a
                         >
                         <a class="tn-title" href="${data.articles[5].url}"
                           >${data.articles[5].title}</a
@@ -1074,7 +1074,7 @@ async function technologypage(url1) {
                     <div class="tn-content">
                       <div class="tn-content-inner">
                         <a class="tn-date" href="${data.articles[6].url}"
-                          ><i class="far fa-clock"></i>${data.articles[6].publishedAt}</a
+                          ><i class="far fa-clock"></i>${data.articles[6].publishedAt.slice(0, 10)}</a
                         >
                         <a class="tn-title" href="${data.articles[6].url}"
                           >${data.articles[6].title}</a
@@ -1089,7 +1089,7 @@ async function technologypage(url1) {
                     <div class="tn-content">
                       <div class="tn-content-inner">
                         <a class="tn-date" href="${data.articles[7].url}"
-                          ><i class="far fa-clock"></i>${data.articles[7].publishedAt}</a
+                          ><i class="far fa-clock"></i>${data.articles[7].publishedAt.slice(0, 10)}</a
                         >
                         <a class="tn-title" href="${data.articles[7].url}"
                           >${data.articles[7].title}</a
@@ -1104,7 +1104,7 @@ async function technologypage(url1) {
                     <div class="tn-content">
                       <div class="tn-content-inner">
                         <a class="tn-date" href="${data.articles[8].url}"
-                          ><i class="far fa-clock"></i>${data.articles[8].publishedAt}</a
+                          ><i class="far fa-clock"></i>${data.articles[8].publishedAt.slice(0, 10)}</a
                         >
                         <a class="tn-title" href="${data.articles[8].url}"
                           >${data.articles[8].title}</a
@@ -1145,7 +1145,7 @@ async function entertainmentpage(url1) {
               <div class="tn-content">
                 <div class="tn-content-inner">
                   <a class="tn-date" href="${data.articles[0].url}"
-                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt}</a
+                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt.slice(0, 10)}</a
                   >
                   <a class="tn-title" href="${data.articles[0].url}"
                     >${data.articles[0].title}</a
@@ -1162,7 +1162,7 @@ async function entertainmentpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[1].url}"
-                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[1].url}"
                         >${data.articles[1].title}</a
@@ -1177,7 +1177,7 @@ async function entertainmentpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[2].url}"
-                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[2].url}"
                         >${data.articles[2].title}</a
@@ -1192,7 +1192,7 @@ async function entertainmentpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[3].url}"
-                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[3].url}"
                         >${data.articles[3].title}</a
@@ -1207,7 +1207,7 @@ async function entertainmentpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[4].url}"
-                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[4].url}"
                         >${data.articles[4].title}</a
@@ -1226,7 +1226,7 @@ async function entertainmentpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[5].url}"
-                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[5].url}"
                         >${data.articles[5].title}</a
@@ -1241,7 +1241,7 @@ async function entertainmentpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[6].url}"
-                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[6].url}"
                         >${data.articles[6].title}</a
@@ -1256,7 +1256,7 @@ async function entertainmentpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[7].url}"
-                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[7].url}"
                         >${data.articles[7].title}</a
@@ -1271,7 +1271,7 @@ async function entertainmentpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[8].url}"
-                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[8].url}"
                         >${data.articles[8].title}</a
@@ -1311,7 +1311,7 @@ async function sportspage(url1) {
               <div class="tn-content">
                 <div class="tn-content-inner">
                   <a class="tn-date" href="${data.articles[0].url}"
-                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt}</a
+                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt.slice(0, 10)}</a
                   >
                   <a class="tn-title" href="${data.articles[0].url}"
                     >${data.articles[0].title}</a
@@ -1328,7 +1328,7 @@ async function sportspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[1].url}"
-                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[1].url}"
                         >${data.articles[1].title}</a
@@ -1343,7 +1343,7 @@ async function sportspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[2].url}"
-                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[2].url}"
                         >${data.articles[2].title}</a
@@ -1358,7 +1358,7 @@ async function sportspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[3].url}"
-                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[3].url}"
                         >${data.articles[3].title}</a
@@ -1373,7 +1373,7 @@ async function sportspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[4].url}"
-                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[4].url}"
                         >${data.articles[4].title}</a
@@ -1392,7 +1392,7 @@ async function sportspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[5].url}"
-                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[5].url}"
                         >${data.articles[5].title}</a
@@ -1407,7 +1407,7 @@ async function sportspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[6].url}"
-                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[6].url}"
                         >${data.articles[6].title}</a
@@ -1422,7 +1422,7 @@ async function sportspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[7].url}"
-                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[7].url}"
                         >${data.articles[7].title}</a
@@ -1437,7 +1437,7 @@ async function sportspage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[8].url}"
-                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[8].url}"
                         >${data.articles[8].title}</a
@@ -1477,7 +1477,7 @@ async function sciencepage(url1) {
               <div class="tn-content">
                 <div class="tn-content-inner">
                   <a class="tn-date" href="${data.articles[0].url}"
-                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt}</a
+                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt.slice(0, 10)}</a
                   >
                   <a class="tn-title" href="${data.articles[0].url}"
                     >${data.articles[0].title}</a
@@ -1494,7 +1494,7 @@ async function sciencepage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[1].url}"
-                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[1].url}"
                         >${data.articles[1].title}</a
@@ -1509,7 +1509,7 @@ async function sciencepage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[2].url}"
-                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[2].url}"
                         >${data.articles[2].title}</a
@@ -1524,7 +1524,7 @@ async function sciencepage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[3].url}"
-                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[3].url}"
                         >${data.articles[3].title}</a
@@ -1539,7 +1539,7 @@ async function sciencepage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[4].url}"
-                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[4].url}"
                         >${data.articles[4].title}</a
@@ -1558,7 +1558,7 @@ async function sciencepage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[5].url}"
-                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[5].url}"
                         >${data.articles[5].title}</a
@@ -1573,7 +1573,7 @@ async function sciencepage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[6].url}"
-                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[6].url}"
                         >${data.articles[6].title}</a
@@ -1588,7 +1588,7 @@ async function sciencepage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[7].url}"
-                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[7].url}"
                         >${data.articles[7].title}</a
@@ -1603,7 +1603,7 @@ async function sciencepage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[8].url}"
-                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[8].url}"
                         >${data.articles[8].title}</a
@@ -1643,7 +1643,7 @@ async function healthpage(url1) {
               <div class="tn-content">
                 <div class="tn-content-inner">
                   <a class="tn-date" href="${data.articles[0].url}"
-                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt}</a
+                    ><i class="far fa-clock"></i>${data.articles[0].publishedAt.slice(0, 10)}</a
                   >
                   <a class="tn-title" href="${data.articles[0].url}"
                     >${data.articles[0].title}</a
@@ -1660,7 +1660,7 @@ async function healthpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[1].url}"
-                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[1].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[1].url}"
                         >${data.articles[1].title}</a
@@ -1675,7 +1675,7 @@ async function healthpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[2].url}"
-                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[2].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[2].url}"
                         >${data.articles[2].title}</a
@@ -1690,7 +1690,7 @@ async function healthpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[3].url}"
-                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[3].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[3].url}"
                         >${data.articles[3].title}</a
@@ -1705,7 +1705,7 @@ async function healthpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[4].url}"
-                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[4].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[4].url}"
                         >${data.articles[4].title}</a
@@ -1724,7 +1724,7 @@ async function healthpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[5].url}"
-                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[5].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[5].url}"
                         >${data.articles[5].title}</a
@@ -1739,7 +1739,7 @@ async function healthpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[6].url}"
-                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[6].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[6].url}"
                         >${data.articles[6].title}</a
@@ -1754,7 +1754,7 @@ async function healthpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[7].url}"
-                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[7].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[7].url}"
                         >${data.articles[7].title}</a
@@ -1769,7 +1769,7 @@ async function healthpage(url1) {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${data.articles[8].url}"
-                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt}</a
+                        ><i class="far fa-clock"></i>${data.articles[8].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${data.articles[8].url}"
                         >${data.articles[8].title}</a
@@ -1816,7 +1816,7 @@ async function searchpage() {
               <div class="tn-content">
                 <div class="tn-content-inner">
                   <a class="tn-date" href="${results.articles[0].url}"
-                    ><i class="far fa-clock"></i>${results.articles[0].publishedAt}</a
+                    ><i class="far fa-clock"></i>${results.articles[0].publishedAt.slice(0, 10)}</a
                   >
                   <a class="tn-title" href="${results.articles[0].url}"
                     >${results.articles[0].title}</a
@@ -1833,7 +1833,7 @@ async function searchpage() {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${results.articles[1].url}"
-                        ><i class="far fa-clock"></i>${results.articles[1].publishedAt}</a
+                        ><i class="far fa-clock"></i>${results.articles[1].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${results.articles[1].url}"
                         >${results.articles[1].title}</a
@@ -1848,7 +1848,7 @@ async function searchpage() {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${results.articles[2].url}"
-                        ><i class="far fa-clock"></i>${results.articles[2].publishedAt}</a
+                        ><i class="far fa-clock"></i>${results.articles[2].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${results.articles[2].url}"
                         >${results.articles[2].title}</a
@@ -1863,7 +1863,7 @@ async function searchpage() {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${results.articles[3].url}"
-                        ><i class="far fa-clock"></i>${results.articles[3].publishedAt}</a
+                        ><i class="far fa-clock"></i>${results.articles[3].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${results.articles[3].url}"
                         >${results.articles[3].title}</a
@@ -1878,7 +1878,7 @@ async function searchpage() {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${results.articles[4].url}"
-                        ><i class="far fa-clock"></i>${results.articles[4].publishedAt}</a
+                        ><i class="far fa-clock"></i>${results.articles[4].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${results.articles[4].url}"
                         >${results.articles[4].title}</a
@@ -1897,7 +1897,7 @@ async function searchpage() {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${results.articles[5].url}"
-                        ><i class="far fa-clock"></i>${results.articles[5].publishedAt}</a
+                        ><i class="far fa-clock"></i>${results.articles[5].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${results.articles[5].url}"
                         >${results.articles[5].title}</a
@@ -1912,7 +1912,7 @@ async function searchpage() {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${results.articles[6].url}"
-                        ><i class="far fa-clock"></i>${results.articles[6].publishedAt}</a
+                        ><i class="far fa-clock"></i>${results.articles[6].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${results.articles[6].url}"
                         >${results.articles[6].title}</a
@@ -1927,7 +1927,7 @@ async function searchpage() {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${results.articles[7].url}"
-                        ><i class="far fa-clock"></i>${results.articles[7].publishedAt}</a
+                        ><i class="far fa-clock"></i>${results.articles[7].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${results.articles[7].url}"
                         >${results.articles[7].title}</a
@@ -1942,7 +1942,7 @@ async function searchpage() {
                   <div class="tn-content">
                     <div class="tn-content-inner">
                       <a class="tn-date" href="${results.articles[8].url}"
-                        ><i class="far fa-clock"></i>${results.articles[8].publishedAt}</a
+                        ><i class="far fa-clock"></i>${results.articles[8].publishedAt.slice(0, 10)}</a
                       >
                       <a class="tn-title" href="${results.articles[8].url}"
                         >${results.articles[8].title}</a
@@ -2008,7 +2008,7 @@ function init() {
       // healthpage();
       break;
     case "/search.html":
-      // searchpage();
+      searchpage();
       break;
   }
 }
