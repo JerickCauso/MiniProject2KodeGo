@@ -1964,13 +1964,7 @@ async function searchpage() {
   }
 }
 
-// function displaySearchResults(results) {
-//   console.log(results);
-// }
-
 async function searchAPIData() {
-  // const API_URL = global.api.apiUrl;
-  // const API_KEY = global.api.apiKey;
   const apiKey6 = "1321923f82f3680d72f02d2147d154b6";
 
   // showSpinner();
@@ -1990,28 +1984,28 @@ function init() {
   switch (global.currentPage) {
     case "/":
     case "/index.html":
-      // displayTrendNews();
-      // category1();
-      // category2();
-      // category3();
+      displayTrendNews();
+      category1();
+      category2();
+      category3();
       break;
     case "/business.html":
-      // businesspage();
+      businesspage();
       break;
     case "/technology.html":
-      // technologypage();
+      technologypage();
       break;
     case "/science.html":
-      // sciencepage();
+      sciencepage();
       break;
     case "/entertainment.html":
-      // entertainmentpage();
+      entertainmentpage();
       break;
     case "/sports.html":
-      // sportspage();
+      sportspage();
       break;
     case "/health.html":
-      // healthpage();
+      healthpage();
       break;
     case "/search.html":
       searchpage();
