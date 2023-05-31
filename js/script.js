@@ -34,10 +34,10 @@ function displayTrendNews() {
               <img src="${trendarticles[0].image}" height="485"/>
               <div class="tn-content">
                 <div class="tn-content-inner">
-                  <a class="tn-date" href="${trendarticles[0].url}"
+                  <a class="tn-date" target="_blank" href="${trendarticles[0].url}"
                     ><i class="far fa-clock"></i>${trendarticles[0].publishedAt.slice(0, 10)}</a
                   >
-                  <a class="tn-title" href="${trendarticles[0].url}"
+                  <a class="tn-title" target="_blank" target="_blank" href="${trendarticles[0].url}"
                     >${trendarticles[0].title}</a
                   >
                 </div>
@@ -51,10 +51,10 @@ function displayTrendNews() {
                   <img src="${trendarticles[1].image}" height="230"/>
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${trendarticles[1].url}"
+                      <a class="tn-date" target="_blank" href="${trendarticles[1].url}"
                         ><i class="far fa-clock"></i>${trendarticles[1].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${trendarticles[1].url}"
+                      <a class="tn-title" target="_blank" href="${trendarticles[1].url}"
                         >${trendarticles[1].title}</a
                       >
                     </div>
@@ -66,10 +66,10 @@ function displayTrendNews() {
                   <img src="${trendarticles[2].image}" height="230"/>
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${trendarticles[2].url}"
+                      <a class="tn-date" target="_blank" href="${trendarticles[2].url}"
                         ><i class="far fa-clock"></i>${trendarticles[2].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${trendarticles[2].url}"
+                      <a class="tn-title" target="_blank" href="${trendarticles[2].url}"
                         >${trendarticles[2].title}</a
                       >
                     </div>
@@ -81,10 +81,10 @@ function displayTrendNews() {
                   <img src="${trendarticles[3].image}" height="230"/>
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${trendarticles[3].url}"
+                      <a class="tn-date" target="_blank" href="${trendarticles[3].url}"
                         ><i class="far fa-clock"></i>${trendarticles[3].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${trendarticles[3].url}"
+                      <a class="tn-title" target="_blank" href="${trendarticles[3].url}"
                         >${trendarticles[3].title}</a
                       >
                     </div>
@@ -96,10 +96,10 @@ function displayTrendNews() {
                   <img src="${trendarticles[4].image}" height="230"/>
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${trendarticles[4].url}"
+                      <a class="tn-date" target="_blank" href="${trendarticles[4].url}"
                         ><i class="far fa-clock"></i>${trendarticles[4].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${trendarticles[4].url}"
+                      <a class="tn-title" target="_blank" href="${trendarticles[4].url}"
                         >${trendarticles[4].title}</a
                       >
                     </div>
@@ -143,10 +143,10 @@ async function category1(url1, url2) {
                   <img src="${busdata.articles[0].image}" />
                   <div class="cn-content">
                     <div class="cn-content-inner">
-                      <a class="cn-date" href="${busdata.articles[0].url}"
+                      <a class="cn-date" target="_blank" href="${busdata.articles[0].url}"
                         ><i class="far fa-clock"></i>${busdata.articles[0].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="cn-title" href="${busdata.articles[0].image}"
+                      <a class="cn-title" target="_blank" href="${busdata.articles[0].image}"
                         >${busdata.articles[0].title}</a
                       >
                     </div>
@@ -158,10 +158,10 @@ async function category1(url1, url2) {
                   <img src="${busdata.articles[1].image}" />
                   <div class="cn-content">
                     <div class="cn-content-inner">
-                      <a class="cn-date" href="${busdata.articles[1].url}"
+                      <a class="cn-date" target="_blank" href="${busdata.articles[1].url}"
                         ><i class="far fa-clock"></i>${busdata.articles[1].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="cn-title" href="${busdata.articles[1].url}"
+                      <a class="cn-title" target="_blank" href="${busdata.articles[1].url}"
                         >${busdata.articles[1].title}</a
                       >
                     </div>
@@ -173,10 +173,10 @@ async function category1(url1, url2) {
                   <img src="${busdata.articles[2].image}" />
                   <div class="cn-content">
                     <div class="cn-content-inner">
-                      <a class="cn-date" href="${busdata.articles[2].url}"
+                      <a class="cn-date" target="_blank" href="${busdata.articles[2].url}"
                         ><i class="far fa-clock"></i>${busdata.articles[2].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="cn-title" href="${busdata.articles[2].url}">${busdata.articles[2].title}</a>
+                      <a class="cn-title" target="_blank" href="${busdata.articles[2].url}">${busdata.articles[2].title}</a>
                     </div>
                   </div>
                 </div>
@@ -186,10 +186,10 @@ async function category1(url1, url2) {
                   <img src="${busdata.articles[3].image}" />
                   <div class="cn-content">
                     <div class="cn-content-inner">
-                      <a class="cn-date" href="${busdata.articles[3].url}"
+                      <a class="cn-date" target="_blank" href="${busdata.articles[3].url}"
                         ><i class="far fa-clock"></i>${busdata.articles[3].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="cn-title" href="${busdata.articles[3].url}">${busdata.articles[3].title}</a>
+                      <a class="cn-title" target="_blank" href="${busdata.articles[3].url}">${busdata.articles[3].title}</a>
                     </div>
                   </div>
                 </div>
@@ -204,10 +204,10 @@ async function category1(url1, url2) {
                   <img src="${techdata.articles[0].image}" />
                   <div class="cn-content">
                     <div class="cn-content-inner">
-                      <a class="cn-date" href="${techdata.articles[0].url}"
+                      <a class="cn-date" target="_blank" href="${techdata.articles[0].url}"
                         ><i class="far fa-clock"></i>${techdata.articles[0].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="cn-title" href="${techdata.articles[0].url}"
+                      <a class="cn-title" target="_blank" href="${techdata.articles[0].url}"
                         >${techdata.articles[0].title}</a
                       >
                     </div>
@@ -219,10 +219,10 @@ async function category1(url1, url2) {
                   <img src="${techdata.articles[1].image}" />
                   <div class="cn-content">
                     <div class="cn-content-inner">
-                      <a class="cn-date" href="${techdata.articles[1].url}"
+                      <a class="cn-date" target="_blank" href="${techdata.articles[1].url}"
                         ><i class="far fa-clock"></i>${techdata.articles[1].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="cn-title" href="${techdata.articles[1].url}"
+                      <a class="cn-title" target="_blank" href="${techdata.articles[1].url}"
                         >${techdata.articles[1].title}</a
                       >
                     </div>
@@ -234,10 +234,10 @@ async function category1(url1, url2) {
                   <img src="${techdata.articles[2].image}" />
                   <div class="cn-content">
                     <div class="cn-content-inner">
-                      <a class="cn-date" href="${techdata.articles[2].url}"
+                      <a class="cn-date" target="_blank" href="${techdata.articles[2].url}"
                         ><i class="far fa-clock"></i>${techdata.articles[2].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="cn-title" href="${techdata.articles[2].url}">${techdata.articles[2].title}</a>
+                      <a class="cn-title" target="_blank" href="${techdata.articles[2].url}">${techdata.articles[2].title}</a>
                     </div>
                   </div>
                 </div>
@@ -247,10 +247,10 @@ async function category1(url1, url2) {
                   <img src="${techdata.articles[3].image}" />
                   <div class="cn-content">
                     <div class="cn-content-inner">
-                      <a class="cn-date" href="${techdata.articles[3].url}"
+                      <a class="cn-date" target="_blank" href="${techdata.articles[3].url}"
                         ><i class="far fa-clock"></i>${techdata.articles[3].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="cn-title" href="${techdata.articles[3].url}">${techdata.articles[3].title}</a>
+                      <a class="cn-title" target="_blank" href="${techdata.articles[3].url}">${techdata.articles[3].title}</a>
                     </div>
                   </div>
                 </div>
@@ -296,10 +296,10 @@ async function category2(url1, url2) {
                       <img src="${entdata.articles[0].image}" />
                       <div class="cn-content">
                         <div class="cn-content-inner">
-                          <a class="cn-date" href="${entdata.articles[0].url}"
+                          <a class="cn-date" target="_blank" href="${entdata.articles[0].url}"
                             ><i class="far fa-clock"></i>${entdata.articles[0].publishedAt.slice(0, 10)}</a
                           >
-                          <a class="cn-title" href="${entdata.articles[0].url}"
+                          <a class="cn-title" target="_blank" href="${entdata.articles[0].url}"
                             >${entdata.articles[0].title}</a
                           >
                         </div>
@@ -311,10 +311,10 @@ async function category2(url1, url2) {
                       <img src="${entdata.articles[1].image}" />
                       <div class="cn-content">
                         <div class="cn-content-inner">
-                          <a class="cn-date" href="${entdata.articles[1].url}"
+                          <a class="cn-date" target="_blank" href="${entdata.articles[1].url}"
                             ><i class="far fa-clock"></i>${entdata.articles[1].publishedAt.slice(0, 10)}</a
                           >
-                          <a class="cn-title" href="${entdata.articles[1].url}"
+                          <a class="cn-title" target="_blank" href="${entdata.articles[1].url}"
                             >${entdata.articles[1].title}</a
                           >
                         </div>
@@ -331,10 +331,10 @@ async function category2(url1, url2) {
                       <img src="${sportsdata.articles[0].image}" />
                       <div class="cn-content">
                         <div class="cn-content-inner">
-                          <a class="cn-date" href="${sportsdata.articles[0].url}"
+                          <a class="cn-date" target="_blank" href="${sportsdata.articles[0].url}"
                             ><i class="far fa-clock"></i>${sportsdata.articles[0].publishedAt.slice(0, 10)}</a
                           >
-                          <a class="cn-title" href="${sportsdata.articles[0].url}"
+                          <a class="cn-title" target="_blank" href="${sportsdata.articles[0].url}"
                             >${sportsdata.articles[0].title}</a
                           >
                         </div>
@@ -346,10 +346,10 @@ async function category2(url1, url2) {
                       <img src="${sportsdata.articles[1].image}" />
                       <div class="cn-content">
                         <div class="cn-content-inner">
-                          <a class="cn-date" href="${sportsdata.articles[1].url}"
+                          <a class="cn-date" target="_blank" href="${sportsdata.articles[1].url}"
                             ><i class="far fa-clock"></i>${sportsdata.articles[1].publishedAt.slice(0, 10)}</a
                           >
-                          <a class="cn-title" href="${sportsdata.articles[1].url}"
+                          <a class="cn-title" target="_blank" href="${sportsdata.articles[1].url}"
                             >${sportsdata.articles[1].title}</a
                           >
                         </div>
@@ -402,7 +402,7 @@ async function category3(url1, url2) {
                       <img src="${usdata.articles[0].image}" />
                     </div>
                     <div class="mn-content">
-                      <a class="mn-title" href="${usdata.articles[0].url}"
+                      <a class="mn-title" target="_blank" href="${usdata.articles[0].url}"
                         >${usdata.articles[0].title}</a
                       >
                       <p>
@@ -416,7 +416,7 @@ async function category3(url1, url2) {
                         <img src="${usdata.articles[1].image}" />
                       </div>
                       <div class="mn-content">
-                        <a class="mn-title" href="${usdata.articles[1].url}"
+                        <a class="mn-title" target="_blank" href="${usdata.articles[1].url}"
                           >${usdata.articles[1].title}</a
                         >
                       </div>
@@ -426,7 +426,7 @@ async function category3(url1, url2) {
                         <img src="${usdata.articles[2].image}" />
                       </div>
                       <div class="mn-content">
-                        <a class="mn-title" href="${usdata.articles[2].url}"
+                        <a class="mn-title" target="_blank" href="${usdata.articles[2].url}"
                           >${usdata.articles[2].title}</a
                         >
                       </div>
@@ -436,7 +436,7 @@ async function category3(url1, url2) {
                         <img src="${usdata.articles[3].image}" />
                       </div>
                       <div class="mn-content">
-                        <a class="mn-title" href="${usdata.articles[3].url}"
+                        <a class="mn-title" target="_blank" href="${usdata.articles[3].url}"
                           >${usdata.articles[3].title}</a
                         >
                       </div>
@@ -446,7 +446,7 @@ async function category3(url1, url2) {
                         <img src="${usdata.articles[4].image}" />
                       </div>
                       <div class="mn-content">
-                        <a class="mn-title" href="${usdata.articles[4].url}"
+                        <a class="mn-title" target="_blank" href="${usdata.articles[4].url}"
                           >${usdata.articles[4].title}</a
                         >      
                       </div>
@@ -456,7 +456,7 @@ async function category3(url1, url2) {
                         <img src="${usdata.articles[5].image}" />
                       </div>
                       <div class="mn-content">
-                        <a class="mn-title" href="${usdata.articles[5].url}"
+                        <a class="mn-title" target="_blank" href="${usdata.articles[5].url}"
                           >${usdata.articles[5].title}</a
                         >      
                       </div>
@@ -472,7 +472,7 @@ async function category3(url1, url2) {
                       <img src="${worlddata.articles[0].image}" />
                     </div>
                     <div class="mn-content">
-                      <a class="mn-title" href="${worlddata.articles[0].url}"
+                      <a class="mn-title" target="_blank" href="${worlddata.articles[0].url}"
                         >${worlddata.articles[0].title}</a
                       >
                       <p>
@@ -486,7 +486,7 @@ async function category3(url1, url2) {
                         <img src="${worlddata.articles[1].image}" />
                       </div>
                       <div class="mn-content">
-                        <a class="mn-title" href="${worlddata.articles[1].url}">${worlddata.articles[1].title}</a>
+                        <a class="mn-title" target="_blank" href="${worlddata.articles[1].url}">${worlddata.articles[1].title}</a>
                         
                       </div>
                     </div>
@@ -495,7 +495,7 @@ async function category3(url1, url2) {
                         <img src="${worlddata.articles[2].image}" />
                       </div>
                       <div class="mn-content">
-                        <a class="mn-title" href="${worlddata.articles[2].url}"
+                        <a class="mn-title" target="_blank" href="${worlddata.articles[2].url}"
                           >${worlddata.articles[2].title}</a
                         >
                        
@@ -506,7 +506,7 @@ async function category3(url1, url2) {
                         <img src="${worlddata.articles[3].image}" />
                       </div>
                       <div class="mn-content">
-                        <a class="mn-title" href="${worlddata.articles[3].url}"
+                        <a class="mn-title" target="_blank" href="${worlddata.articles[3].url}"
                           >${worlddata.articles[3].title}</a
                         >
                         
@@ -517,7 +517,7 @@ async function category3(url1, url2) {
                         <img src="${worlddata.articles[4].image}" />
                       </div>
                       <div class="mn-content">
-                        <a class="mn-title" href="${worlddata.articles[4].url}"
+                        <a class="mn-title" target="_blank" href="${worlddata.articles[4].url}"
                           >${worlddata.articles[4].title}</a
                         >
                         
@@ -528,7 +528,7 @@ async function category3(url1, url2) {
                         <img src="${worlddata.articles[5].image}" />
                       </div>
                       <div class="mn-content">
-                        <a class="mn-title" href="${worlddata.articles[5].url}"
+                        <a class="mn-title" target="_blank" href="${worlddata.articles[5].url}"
                           >${worlddata.articles[5].title}</a
                         >
                         
@@ -580,27 +580,27 @@ async function category3(url1, url2) {
               <div class="sidebar-widget">
                 <h2><i class="fas fa-align-justify"></i>Tags</h2>
                 <div class="tags">
-                  <a href="">National</a>
-                  <a href="">International</a>
-                  <a href="">Economics</a>
-                  <a href="">Politics</a>
-                  <a href="">Lifestyle</a>
-                  <a href="">Technology</a>
-                  <a href="">Trades</a>
-                  <a href="">National</a>
-                  <a href="">International</a>
-                  <a href="">Economics</a>
-                  <a href="">Politics</a>
-                  <a href="">Lifestyle</a>
-                  <a href="">Technology</a>
-                  <a href="">Trades</a>
+                  <a target="_blank" href="">National</a>
+                  <a target="_blank" href="">International</a>
+                  <a target="_blank" href="">Economics</a>
+                  <a target="_blank" href="">Politics</a>
+                  <a target="_blank" href="">Lifestyle</a>
+                  <a target="_blank" href="">Technology</a>
+                  <a target="_blank" href="">Trades</a>
+                  <a target="_blank" href="">National</a>
+                  <a target="_blank" href="">International</a>
+                  <a target="_blank" href="">Economics</a>
+                  <a target="_blank" href="">Politics</a>
+                  <a target="_blank" href="">Lifestyle</a>
+                  <a target="_blank" href="">Technology</a>
+                  <a target="_blank" href="">Trades</a>
                 </div>
               </div>
 
               <div class="sidebar-widget">
                 <h2><i class="fas fa-align-justify"></i>Ads 1 column</h2>
                 <div class="image">
-                  <a href=""><img src="img/adds-1.jpg" alt="Image" /></a>
+                  <a target="_blank" href=""><img src="img/adds-1.jpg" alt="Image" /></a>
                 </div>
               </div>
 
@@ -609,10 +609,10 @@ async function category3(url1, url2) {
                 <div class="image">
                   <div class="row">
                     <div class="col-sm-6">
-                      <a href=""><img src="img/adds-2.jpg" alt="Image" /></a>
+                      <a target="_blank" href=""><img src="img/adds-2.jpg" alt="Image" /></a>
                     </div>
                     <div class="col-sm-6">
-                      <a href=""><img src="img/adds-2.jpg" alt="Image" /></a>
+                      <a target="_blank" href=""><img src="img/adds-2.jpg" alt="Image" /></a>
                     </div>
                   </div>
                 </div>
@@ -646,10 +646,10 @@ async function businesspage(url1) {
               <img src="${data.articles[0].image}" height="490" />
               <div class="tn-content">
                 <div class="tn-content-inner">
-                  <a class="tn-date" href="${data.articles[0].url}"
+                  <a class="tn-date" target="_blank" href="${data.articles[0].url}"
                     ><i class="far fa-clock"></i>${data.articles[0].publishedAt.slice(0, 10)}</a
                   >
-                  <a class="tn-title" href="${data.articles[0].url}"
+                  <a class="tn-title" target="_blank" href="${data.articles[0].url}"
                     >${data.articles[0].title}</a
                   >
                 </div>
@@ -663,10 +663,10 @@ async function businesspage(url1) {
                   <img src="${data.articles[1].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[1].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[1].url}"
                         ><i class="far fa-clock"></i>${data.articles[1].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[1].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[1].url}"
                         >${data.articles[1].title}</a
                       >
                     </div>
@@ -678,10 +678,10 @@ async function businesspage(url1) {
                   <img src="${data.articles[2].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[2].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[2].url}"
                         ><i class="far fa-clock"></i>${data.articles[2].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[2].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[2].url}"
                         >${data.articles[2].title}</a
                       >
                     </div>
@@ -693,10 +693,10 @@ async function businesspage(url1) {
                   <img src="${data.articles[3].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[3].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[3].url}"
                         ><i class="far fa-clock"></i>${data.articles[3].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[3].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[3].url}"
                         >${data.articles[3].title}</a
                       >
                     </div>
@@ -708,10 +708,10 @@ async function businesspage(url1) {
                   <img src="${data.articles[4].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[4].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[4].url}"
                         ><i class="far fa-clock"></i>${data.articles[4].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[4].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[4].url}"
                         >${data.articles[4].title}</a
                       >
                     </div>
@@ -727,10 +727,10 @@ async function businesspage(url1) {
                   <img src="${data.articles[5].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[5].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[5].url}"
                         ><i class="far fa-clock"></i>${data.articles[5].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[5].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[5].url}"
                         >${data.articles[5].title}</a
                       >
                     </div>
@@ -742,10 +742,10 @@ async function businesspage(url1) {
                   <img src="${data.articles[6].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[6].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[6].url}"
                         ><i class="far fa-clock"></i>${data.articles[6].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[6].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[6].url}"
                         >${data.articles[6].title}</a
                       >
                     </div>
@@ -757,10 +757,10 @@ async function businesspage(url1) {
                   <img src="${data.articles[7].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[7].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[7].url}"
                         ><i class="far fa-clock"></i>${data.articles[7].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[7].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[7].url}"
                         >${data.articles[7].title}</a
                       >
                     </div>
@@ -772,10 +772,10 @@ async function businesspage(url1) {
                   <img src="${data.articles[8].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[8].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[8].url}"
                         ><i class="far fa-clock"></i>${data.articles[8].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[8].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[8].url}"
                         >${data.articles[8].title}</a
                       >
                     </div>
@@ -812,10 +812,10 @@ async function technologypage(url1) {
               <img src="${data.articles[0].image}" height="490" />
               <div class="tn-content">
                 <div class="tn-content-inner">
-                  <a class="tn-date" href="${data.articles[0].url}"
+                  <a class="tn-date" target="_blank" href="${data.articles[0].url}"
                     ><i class="far fa-clock"></i>${data.articles[0].publishedAt.slice(0, 10)}</a
                   >
-                  <a class="tn-title" href="${data.articles[0].url}"
+                  <a class="tn-title" target="_blank" href="${data.articles[0].url}"
                     >${data.articles[0].title}</a
                   >
                 </div>
@@ -829,10 +829,10 @@ async function technologypage(url1) {
                   <img src="${data.articles[1].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[1].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[1].url}"
                         ><i class="far fa-clock"></i>${data.articles[1].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[1].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[1].url}"
                         >${data.articles[1].title}</a
                       >
                     </div>
@@ -844,10 +844,10 @@ async function technologypage(url1) {
                   <img src="${data.articles[2].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[2].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[2].url}"
                         ><i class="far fa-clock"></i>${data.articles[2].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[2].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[2].url}"
                         >${data.articles[2].title}</a
                       >
                     </div>
@@ -859,10 +859,10 @@ async function technologypage(url1) {
                   <img src="${data.articles[3].image}" height="233" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[3].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[3].url}"
                         ><i class="far fa-clock"></i>${data.articles[3].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[3].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[3].url}"
                         >${data.articles[3].title}</a
                       >
                     </div>
@@ -874,10 +874,10 @@ async function technologypage(url1) {
                   <img src="${data.articles[4].image}" height="234" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[4].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[4].url}"
                         ><i class="far fa-clock"></i>${data.articles[4].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[4].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[4].url}"
                         >${data.articles[4].title}</a
                       >
                     </div>
@@ -893,10 +893,10 @@ async function technologypage(url1) {
                   <img src="${data.articles[5].image}" height="235" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[5].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[5].url}"
                         ><i class="far fa-clock"></i>${data.articles[5].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[5].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[5].url}"
                         >${data.articles[5].title}</a
                       >
                     </div>
@@ -908,10 +908,10 @@ async function technologypage(url1) {
                   <img src="${data.articles[6].image}" height="236" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[6].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[6].url}"
                         ><i class="far fa-clock"></i>${data.articles[6].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[6].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[6].url}"
                         >${data.articles[6].title}</a
                       >
                     </div>
@@ -923,10 +923,10 @@ async function technologypage(url1) {
                   <img src="${data.articles[7].image}" height="237" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[7].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[7].url}"
                         ><i class="far fa-clock"></i>${data.articles[7].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[7].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[7].url}"
                         >${data.articles[7].title}</a
                       >
                     </div>
@@ -938,10 +938,10 @@ async function technologypage(url1) {
                   <img src="${data.articles[8].image}" height="238" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[8].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[8].url}"
                         ><i class="far fa-clock"></i>${data.articles[8].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[8].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[8].url}"
                         >${data.articles[8].title}</a
                       >
                     </div>
@@ -977,10 +977,10 @@ async function technologypage(url1) {
                 <img src="${data.articles[0].image}" height="490" />
                 <div class="tn-content">
                   <div class="tn-content-inner">
-                    <a class="tn-date" href="${data.articles[0].url}"
+                    <a class="tn-date" target="_blank" href="${data.articles[0].url}"
                       ><i class="far fa-clock"></i>${data.articles[0].publishedAt.slice(0, 10)}</a
                     >
-                    <a class="tn-title" href="${data.articles[0].url}"
+                    <a class="tn-title" target="_blank" href="${data.articles[0].url}"
                       >${data.articles[0].title}</a
                     >
                   </div>
@@ -994,10 +994,10 @@ async function technologypage(url1) {
                     <img src="${data.articles[1].image}" height="230" />
                     <div class="tn-content">
                       <div class="tn-content-inner">
-                        <a class="tn-date" href="${data.articles[1].url}"
+                        <a class="tn-date" target="_blank" href="${data.articles[1].url}"
                           ><i class="far fa-clock"></i>${data.articles[1].publishedAt.slice(0, 10)}</a
                         >
-                        <a class="tn-title" href="${data.articles[1].url}"
+                        <a class="tn-title" target="_blank" href="${data.articles[1].url}"
                           >${data.articles[1].title}</a
                         >
                       </div>
@@ -1009,10 +1009,10 @@ async function technologypage(url1) {
                     <img src="${data.articles[2].image}" height="230" />
                     <div class="tn-content">
                       <div class="tn-content-inner">
-                        <a class="tn-date" href="${data.articles[2].url}"
+                        <a class="tn-date" target="_blank" href="${data.articles[2].url}"
                           ><i class="far fa-clock"></i>${data.articles[2].publishedAt.slice(0, 10)}</a
                         >
-                        <a class="tn-title" href="${data.articles[2].url}"
+                        <a class="tn-title" target="_blank" href="${data.articles[2].url}"
                           >${data.articles[2].title}</a
                         >
                       </div>
@@ -1024,10 +1024,10 @@ async function technologypage(url1) {
                     <img src="${data.articles[3].image}" height="233" />
                     <div class="tn-content">
                       <div class="tn-content-inner">
-                        <a class="tn-date" href="${data.articles[3].url}"
+                        <a class="tn-date" target="_blank" href="${data.articles[3].url}"
                           ><i class="far fa-clock"></i>${data.articles[3].publishedAt.slice(0, 10)}</a
                         >
-                        <a class="tn-title" href="${data.articles[3].url}"
+                        <a class="tn-title" target="_blank" href="${data.articles[3].url}"
                           >${data.articles[3].title}</a
                         >
                       </div>
@@ -1039,10 +1039,10 @@ async function technologypage(url1) {
                     <img src="${data.articles[4].image}" height="234" />
                     <div class="tn-content">
                       <div class="tn-content-inner">
-                        <a class="tn-date" href="${data.articles[4].url}"
+                        <a class="tn-date" target="_blank" href="${data.articles[4].url}"
                           ><i class="far fa-clock"></i>${data.articles[4].publishedAt.slice(0, 10)}</a
                         >
-                        <a class="tn-title" href="${data.articles[4].url}"
+                        <a class="tn-title" target="_blank" href="${data.articles[4].url}"
                           >${data.articles[4].title}</a
                         >
                       </div>
@@ -1058,10 +1058,10 @@ async function technologypage(url1) {
                     <img src="${data.articles[5].image}" height="235" />
                     <div class="tn-content">
                       <div class="tn-content-inner">
-                        <a class="tn-date" href="${data.articles[5].url}"
+                        <a class="tn-date" target="_blank" href="${data.articles[5].url}"
                           ><i class="far fa-clock"></i>${data.articles[5].publishedAt.slice(0, 10)}</a
                         >
-                        <a class="tn-title" href="${data.articles[5].url}"
+                        <a class="tn-title" target="_blank" href="${data.articles[5].url}"
                           >${data.articles[5].title}</a
                         >
                       </div>
@@ -1073,10 +1073,10 @@ async function technologypage(url1) {
                     <img src="${data.articles[6].image}" height="236" />
                     <div class="tn-content">
                       <div class="tn-content-inner">
-                        <a class="tn-date" href="${data.articles[6].url}"
+                        <a class="tn-date" target="_blank" href="${data.articles[6].url}"
                           ><i class="far fa-clock"></i>${data.articles[6].publishedAt.slice(0, 10)}</a
                         >
-                        <a class="tn-title" href="${data.articles[6].url}"
+                        <a class="tn-title" target="_blank" href="${data.articles[6].url}"
                           >${data.articles[6].title}</a
                         >
                       </div>
@@ -1088,10 +1088,10 @@ async function technologypage(url1) {
                     <img src="${data.articles[7].image}" height="237" />
                     <div class="tn-content">
                       <div class="tn-content-inner">
-                        <a class="tn-date" href="${data.articles[7].url}"
+                        <a class="tn-date" target="_blank" href="${data.articles[7].url}"
                           ><i class="far fa-clock"></i>${data.articles[7].publishedAt.slice(0, 10)}</a
                         >
-                        <a class="tn-title" href="${data.articles[7].url}"
+                        <a class="tn-title" target="_blank" href="${data.articles[7].url}"
                           >${data.articles[7].title}</a
                         >
                       </div>
@@ -1103,10 +1103,10 @@ async function technologypage(url1) {
                     <img src="${data.articles[8].image}" height="238" />
                     <div class="tn-content">
                       <div class="tn-content-inner">
-                        <a class="tn-date" href="${data.articles[8].url}"
+                        <a class="tn-date" target="_blank" href="${data.articles[8].url}"
                           ><i class="far fa-clock"></i>${data.articles[8].publishedAt.slice(0, 10)}</a
                         >
-                        <a class="tn-title" href="${data.articles[8].url}"
+                        <a class="tn-title" target="_blank" href="${data.articles[8].url}"
                           >${data.articles[8].title}</a
                         >
                       </div>
@@ -1144,10 +1144,10 @@ async function entertainmentpage(url1) {
               <img src="${data.articles[0].image}" height="490" />
               <div class="tn-content">
                 <div class="tn-content-inner">
-                  <a class="tn-date" href="${data.articles[0].url}"
+                  <a class="tn-date" target="_blank" href="${data.articles[0].url}"
                     ><i class="far fa-clock"></i>${data.articles[0].publishedAt.slice(0, 10)}</a
                   >
-                  <a class="tn-title" href="${data.articles[0].url}"
+                  <a class="tn-title" target="_blank" href="${data.articles[0].url}"
                     >${data.articles[0].title}</a
                   >
                 </div>
@@ -1161,10 +1161,10 @@ async function entertainmentpage(url1) {
                   <img src="${data.articles[1].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[1].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[1].url}"
                         ><i class="far fa-clock"></i>${data.articles[1].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[1].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[1].url}"
                         >${data.articles[1].title}</a
                       >
                     </div>
@@ -1176,10 +1176,10 @@ async function entertainmentpage(url1) {
                   <img src="${data.articles[2].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[2].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[2].url}"
                         ><i class="far fa-clock"></i>${data.articles[2].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[2].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[2].url}"
                         >${data.articles[2].title}</a
                       >
                     </div>
@@ -1191,10 +1191,10 @@ async function entertainmentpage(url1) {
                   <img src="${data.articles[3].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[3].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[3].url}"
                         ><i class="far fa-clock"></i>${data.articles[3].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[3].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[3].url}"
                         >${data.articles[3].title}</a
                       >
                     </div>
@@ -1206,10 +1206,10 @@ async function entertainmentpage(url1) {
                   <img src="${data.articles[4].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[4].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[4].url}"
                         ><i class="far fa-clock"></i>${data.articles[4].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[4].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[4].url}"
                         >${data.articles[4].title}</a
                       >
                     </div>
@@ -1225,10 +1225,10 @@ async function entertainmentpage(url1) {
                   <img src="${data.articles[5].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[5].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[5].url}"
                         ><i class="far fa-clock"></i>${data.articles[5].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[5].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[5].url}"
                         >${data.articles[5].title}</a
                       >
                     </div>
@@ -1240,10 +1240,10 @@ async function entertainmentpage(url1) {
                   <img src="${data.articles[6].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[6].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[6].url}"
                         ><i class="far fa-clock"></i>${data.articles[6].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[6].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[6].url}"
                         >${data.articles[6].title}</a
                       >
                     </div>
@@ -1255,10 +1255,10 @@ async function entertainmentpage(url1) {
                   <img src="${data.articles[7].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[7].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[7].url}"
                         ><i class="far fa-clock"></i>${data.articles[7].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[7].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[7].url}"
                         >${data.articles[7].title}</a
                       >
                     </div>
@@ -1270,10 +1270,10 @@ async function entertainmentpage(url1) {
                   <img src="${data.articles[8].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[8].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[8].url}"
                         ><i class="far fa-clock"></i>${data.articles[8].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[8].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[8].url}"
                         >${data.articles[8].title}</a
                       >
                     </div>
@@ -1310,10 +1310,10 @@ async function sportspage(url1) {
               <img src="${data.articles[0].image}" height="490" />
               <div class="tn-content">
                 <div class="tn-content-inner">
-                  <a class="tn-date" href="${data.articles[0].url}"
+                  <a class="tn-date" target="_blank" href="${data.articles[0].url}"
                     ><i class="far fa-clock"></i>${data.articles[0].publishedAt.slice(0, 10)}</a
                   >
-                  <a class="tn-title" href="${data.articles[0].url}"
+                  <a class="tn-title" target="_blank" href="${data.articles[0].url}"
                     >${data.articles[0].title}</a
                   >
                 </div>
@@ -1327,10 +1327,10 @@ async function sportspage(url1) {
                   <img src="${data.articles[1].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[1].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[1].url}"
                         ><i class="far fa-clock"></i>${data.articles[1].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[1].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[1].url}"
                         >${data.articles[1].title}</a
                       >
                     </div>
@@ -1342,10 +1342,10 @@ async function sportspage(url1) {
                   <img src="${data.articles[2].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[2].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[2].url}"
                         ><i class="far fa-clock"></i>${data.articles[2].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[2].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[2].url}"
                         >${data.articles[2].title}</a
                       >
                     </div>
@@ -1357,10 +1357,10 @@ async function sportspage(url1) {
                   <img src="${data.articles[3].image}" height="233" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[3].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[3].url}"
                         ><i class="far fa-clock"></i>${data.articles[3].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[3].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[3].url}"
                         >${data.articles[3].title}</a
                       >
                     </div>
@@ -1372,10 +1372,10 @@ async function sportspage(url1) {
                   <img src="${data.articles[4].image}" height="234" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[4].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[4].url}"
                         ><i class="far fa-clock"></i>${data.articles[4].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[4].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[4].url}"
                         >${data.articles[4].title}</a
                       >
                     </div>
@@ -1391,10 +1391,10 @@ async function sportspage(url1) {
                   <img src="${data.articles[5].image}" height="235" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[5].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[5].url}"
                         ><i class="far fa-clock"></i>${data.articles[5].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[5].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[5].url}"
                         >${data.articles[5].title}</a
                       >
                     </div>
@@ -1406,10 +1406,10 @@ async function sportspage(url1) {
                   <img src="${data.articles[6].image}" height="236" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[6].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[6].url}"
                         ><i class="far fa-clock"></i>${data.articles[6].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[6].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[6].url}"
                         >${data.articles[6].title}</a
                       >
                     </div>
@@ -1421,10 +1421,10 @@ async function sportspage(url1) {
                   <img src="${data.articles[7].image}" height="237" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[7].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[7].url}"
                         ><i class="far fa-clock"></i>${data.articles[7].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[7].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[7].url}"
                         >${data.articles[7].title}</a
                       >
                     </div>
@@ -1436,10 +1436,10 @@ async function sportspage(url1) {
                   <img src="${data.articles[8].image}" height="238" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[8].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[8].url}"
                         ><i class="far fa-clock"></i>${data.articles[8].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[8].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[8].url}"
                         >${data.articles[8].title}</a
                       >
                     </div>
@@ -1476,10 +1476,10 @@ async function sciencepage(url1) {
               <img src="${data.articles[0].image}" height="490" />
               <div class="tn-content">
                 <div class="tn-content-inner">
-                  <a class="tn-date" href="${data.articles[0].url}"
+                  <a class="tn-date" target="_blank" href="${data.articles[0].url}"
                     ><i class="far fa-clock"></i>${data.articles[0].publishedAt.slice(0, 10)}</a
                   >
-                  <a class="tn-title" href="${data.articles[0].url}"
+                  <a class="tn-title" target="_blank" href="${data.articles[0].url}"
                     >${data.articles[0].title}</a
                   >
                 </div>
@@ -1493,10 +1493,10 @@ async function sciencepage(url1) {
                   <img src="${data.articles[1].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[1].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[1].url}"
                         ><i class="far fa-clock"></i>${data.articles[1].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[1].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[1].url}"
                         >${data.articles[1].title}</a
                       >
                     </div>
@@ -1508,10 +1508,10 @@ async function sciencepage(url1) {
                   <img src="${data.articles[2].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[2].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[2].url}"
                         ><i class="far fa-clock"></i>${data.articles[2].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[2].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[2].url}"
                         >${data.articles[2].title}</a
                       >
                     </div>
@@ -1523,10 +1523,10 @@ async function sciencepage(url1) {
                   <img src="${data.articles[3].image}" height="233" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[3].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[3].url}"
                         ><i class="far fa-clock"></i>${data.articles[3].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[3].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[3].url}"
                         >${data.articles[3].title}</a
                       >
                     </div>
@@ -1538,10 +1538,10 @@ async function sciencepage(url1) {
                   <img src="${data.articles[4].image}" height="234" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[4].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[4].url}"
                         ><i class="far fa-clock"></i>${data.articles[4].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[4].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[4].url}"
                         >${data.articles[4].title}</a
                       >
                     </div>
@@ -1557,10 +1557,10 @@ async function sciencepage(url1) {
                   <img src="${data.articles[5].image}" height="235" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[5].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[5].url}"
                         ><i class="far fa-clock"></i>${data.articles[5].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[5].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[5].url}"
                         >${data.articles[5].title}</a
                       >
                     </div>
@@ -1572,10 +1572,10 @@ async function sciencepage(url1) {
                   <img src="${data.articles[6].image}" height="236" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[6].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[6].url}"
                         ><i class="far fa-clock"></i>${data.articles[6].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[6].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[6].url}"
                         >${data.articles[6].title}</a
                       >
                     </div>
@@ -1587,10 +1587,10 @@ async function sciencepage(url1) {
                   <img src="${data.articles[7].image}" height="237" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[7].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[7].url}"
                         ><i class="far fa-clock"></i>${data.articles[7].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[7].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[7].url}"
                         >${data.articles[7].title}</a
                       >
                     </div>
@@ -1602,10 +1602,10 @@ async function sciencepage(url1) {
                   <img src="${data.articles[8].image}" height="238" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[8].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[8].url}"
                         ><i class="far fa-clock"></i>${data.articles[8].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[8].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[8].url}"
                         >${data.articles[8].title}</a
                       >
                     </div>
@@ -1642,10 +1642,10 @@ async function healthpage(url1) {
               <img src="${data.articles[0].image}" height="490" />
               <div class="tn-content">
                 <div class="tn-content-inner">
-                  <a class="tn-date" href="${data.articles[0].url}"
+                  <a class="tn-date" target="_blank" href="${data.articles[0].url}"
                     ><i class="far fa-clock"></i>${data.articles[0].publishedAt.slice(0, 10)}</a
                   >
-                  <a class="tn-title" href="${data.articles[0].url}"
+                  <a class="tn-title" target="_blank" href="${data.articles[0].url}"
                     >${data.articles[0].title}</a
                   >
                 </div>
@@ -1659,10 +1659,10 @@ async function healthpage(url1) {
                   <img src="${data.articles[1].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[1].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[1].url}"
                         ><i class="far fa-clock"></i>${data.articles[1].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[1].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[1].url}"
                         >${data.articles[1].title}</a
                       >
                     </div>
@@ -1674,10 +1674,10 @@ async function healthpage(url1) {
                   <img src="${data.articles[2].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[2].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[2].url}"
                         ><i class="far fa-clock"></i>${data.articles[2].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[2].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[2].url}"
                         >${data.articles[2].title}</a
                       >
                     </div>
@@ -1689,10 +1689,10 @@ async function healthpage(url1) {
                   <img src="${data.articles[3].image}" height="233" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[3].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[3].url}"
                         ><i class="far fa-clock"></i>${data.articles[3].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[3].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[3].url}"
                         >${data.articles[3].title}</a
                       >
                     </div>
@@ -1704,10 +1704,10 @@ async function healthpage(url1) {
                   <img src="${data.articles[4].image}" height="234" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[4].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[4].url}"
                         ><i class="far fa-clock"></i>${data.articles[4].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[4].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[4].url}"
                         >${data.articles[4].title}</a
                       >
                     </div>
@@ -1723,10 +1723,10 @@ async function healthpage(url1) {
                   <img src="${data.articles[5].image}" height="235" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[5].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[5].url}"
                         ><i class="far fa-clock"></i>${data.articles[5].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[5].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[5].url}"
                         >${data.articles[5].title}</a
                       >
                     </div>
@@ -1738,10 +1738,10 @@ async function healthpage(url1) {
                   <img src="${data.articles[6].image}" height="236" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[6].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[6].url}"
                         ><i class="far fa-clock"></i>${data.articles[6].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[6].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[6].url}"
                         >${data.articles[6].title}</a
                       >
                     </div>
@@ -1753,10 +1753,10 @@ async function healthpage(url1) {
                   <img src="${data.articles[7].image}" height="237" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[7].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[7].url}"
                         ><i class="far fa-clock"></i>${data.articles[7].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[7].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[7].url}"
                         >${data.articles[7].title}</a
                       >
                     </div>
@@ -1768,10 +1768,10 @@ async function healthpage(url1) {
                   <img src="${data.articles[8].image}" height="238" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${data.articles[8].url}"
+                      <a class="tn-date" target="_blank" href="${data.articles[8].url}"
                         ><i class="far fa-clock"></i>${data.articles[8].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${data.articles[8].url}"
+                      <a class="tn-title" target="_blank" href="${data.articles[8].url}"
                         >${data.articles[8].title}</a
                       >
                     </div>
@@ -1815,10 +1815,10 @@ async function searchpage() {
               <img src="${results.articles[0].image}" height="490" />
               <div class="tn-content">
                 <div class="tn-content-inner">
-                  <a class="tn-date" href="${results.articles[0].url}"
+                  <a class="tn-date" target="_blank" href="${results.articles[0].url}"
                     ><i class="far fa-clock"></i>${results.articles[0].publishedAt.slice(0, 10)}</a
                   >
-                  <a class="tn-title" href="${results.articles[0].url}"
+                  <a class="tn-title" target="_blank" href="${results.articles[0].url}"
                     >${results.articles[0].title}</a
                   >
                 </div>
@@ -1832,10 +1832,10 @@ async function searchpage() {
                   <img src="${results.articles[1].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${results.articles[1].url}"
+                      <a class="tn-date" target="_blank" href="${results.articles[1].url}"
                         ><i class="far fa-clock"></i>${results.articles[1].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${results.articles[1].url}"
+                      <a class="tn-title" target="_blank" href="${results.articles[1].url}"
                         >${results.articles[1].title}</a
                       >
                     </div>
@@ -1847,10 +1847,10 @@ async function searchpage() {
                   <img src="${results.articles[2].image}" height="230" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${results.articles[2].url}"
+                      <a class="tn-date" target="_blank" href="${results.articles[2].url}"
                         ><i class="far fa-clock"></i>${results.articles[2].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${results.articles[2].url}"
+                      <a class="tn-title" target="_blank" href="${results.articles[2].url}"
                         >${results.articles[2].title}</a
                       >
                     </div>
@@ -1862,10 +1862,10 @@ async function searchpage() {
                   <img src="${results.articles[3].image}" height="233" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${results.articles[3].url}"
+                      <a class="tn-date" target="_blank" href="${results.articles[3].url}"
                         ><i class="far fa-clock"></i>${results.articles[3].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${results.articles[3].url}"
+                      <a class="tn-title" target="_blank" href="${results.articles[3].url}"
                         >${results.articles[3].title}</a
                       >
                     </div>
@@ -1877,10 +1877,10 @@ async function searchpage() {
                   <img src="${results.articles[4].image}" height="234" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${results.articles[4].url}"
+                      <a class="tn-date" target="_blank" href="${results.articles[4].url}"
                         ><i class="far fa-clock"></i>${results.articles[4].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${results.articles[4].url}"
+                      <a class="tn-title" target="_blank" href="${results.articles[4].url}"
                         >${results.articles[4].title}</a
                       >
                     </div>
@@ -1896,10 +1896,10 @@ async function searchpage() {
                   <img src="${results.articles[5].image}" height="235" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${results.articles[5].url}"
+                      <a class="tn-date" target="_blank" href="${results.articles[5].url}"
                         ><i class="far fa-clock"></i>${results.articles[5].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${results.articles[5].url}"
+                      <a class="tn-title" target="_blank" href="${results.articles[5].url}"
                         >${results.articles[5].title}</a
                       >
                     </div>
@@ -1911,10 +1911,10 @@ async function searchpage() {
                   <img src="${results.articles[6].image}" height="236" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${results.articles[6].url}"
+                      <a class="tn-date" target="_blank" href="${results.articles[6].url}"
                         ><i class="far fa-clock"></i>${results.articles[6].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${results.articles[6].url}"
+                      <a class="tn-title" target="_blank" href="${results.articles[6].url}"
                         >${results.articles[6].title}</a
                       >
                     </div>
@@ -1926,10 +1926,10 @@ async function searchpage() {
                   <img src="${results.articles[7].image}" height="237" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${results.articles[7].url}"
+                      <a class="tn-date" target="_blank" href="${results.articles[7].url}"
                         ><i class="far fa-clock"></i>${results.articles[7].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${results.articles[7].url}"
+                      <a class="tn-title" target="_blank" href="${results.articles[7].url}"
                         >${results.articles[7].title}</a
                       >
                     </div>
@@ -1941,10 +1941,10 @@ async function searchpage() {
                   <img src="${results.articles[8].image}" height="238" />
                   <div class="tn-content">
                     <div class="tn-content-inner">
-                      <a class="tn-date" href="${results.articles[8].url}"
+                      <a class="tn-date" target="_blank" href="${results.articles[8].url}"
                         ><i class="far fa-clock"></i>${results.articles[8].publishedAt.slice(0, 10)}</a
                       >
-                      <a class="tn-title" href="${results.articles[8].url}"
+                      <a class="tn-title" target="_blank" href="${results.articles[8].url}"
                         >${results.articles[8].title}</a
                       >
                     </div>
@@ -2040,7 +2040,7 @@ function init() {
   switch (global.currentPage) {
     case "/":
     case "/index.html":
-      // displayTrendNews();
+      displayTrendNews();
       // category1();
       // category2();
       // category3();
