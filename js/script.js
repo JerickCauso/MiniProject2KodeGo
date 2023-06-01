@@ -18,7 +18,7 @@ const apiKey6 = "1321923f82f3680d72f02d2147d154b6";
 function displayTrendNews() {
   url =
     "https://gnews.io/api/v4/top-headlines?country=ph&lang=en&max=5&apikey=" +
-    apiKey1;
+    apiKey2;
 
   fetch(url)
     .then(function (response) {
