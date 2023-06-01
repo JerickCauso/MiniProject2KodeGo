@@ -242,6 +242,10 @@ button.btn:hover {
   padding: 10px 10px 8px 10px;
   color: #ffffff;
 }
+#logolink.active {
+  background: none;
+
+}
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
@@ -1062,7 +1066,7 @@ button.btn:hover {
   }
   #date-time {display:none}
 }
-@media (min-width: 1200px) {
+@media (-width: 1200px) {
  
   #date-time {display:none}
 }
