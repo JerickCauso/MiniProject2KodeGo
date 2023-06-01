@@ -12,13 +12,13 @@ const apiKey2 = "e701311bc9b2249184c539cd496d8466";
 const apiKey3 = "bd6c2317d02803fb4cf4fa5deaff149c";
 const apiKey4 = "26fd80a7289d79b300b99af28392c8c7";
 const apiKey5 = "d7dfd99147ac538715d80f39a0277163";
-const apiKey6 = "1321923f82f3680d72f02d2147d154b6";
+const apiKey6 = "2d27b969040914f83bf30e7959ad9349";
 
 // Trending News
 function displayTrendNews() {
   url =
     "https://gnews.io/api/v4/top-headlines?country=ph&lang=en&max=5&apikey=" +
-    apiKey2;
+    apiKey6;
 
   fetch(url)
     .then(function (response) {
